@@ -1,0 +1,34 @@
+# Entornos y Credenciales
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Archivos de Sistema y Temporales
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+scratch/
+logs/
+*.log
+
+# Caches y Dependencias
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+.venv/
+venv/
+ENV/
+
+# Informes temporales
+security_scan*.json

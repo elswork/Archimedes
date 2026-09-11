@@ -1,0 +1,4 @@
+#!/bin/bash
+# Wrapper ejecutable para tools/wiki.py
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+python3 "$SCRIPT_DIR/../tools/wiki.py" "$@"

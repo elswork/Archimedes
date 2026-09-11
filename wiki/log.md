@@ -1,0 +1,39 @@
+# Registro Cronológico de la Wiki (LLM-Wiki Log)
+
+Registro append-only de todas las operaciones de ingesta, consulta consolidada y auditoría (lint) de la Wiki de Anticitera.
+
+---
+
+## [2026-09-12] setup | Inicialización de la arquitectura LLM-Wiki
+- Creado `schema.md` con las especificaciones y convenciones YAML/Markdown.
+- Creada la skill `.agent/skills/llm_wiki/SKILL.md`.
+- Creados los workflows de agente `.agent/workflows/wiki_ingest.md` y `.agent/workflows/wiki_lint.md`.
+- Creado `index.md` como catálogo inicial.
+- Creados `AGENTS.md` y `GEMINI.md` a nivel de raíz del repositorio.
+- Creada la suite CLI `tools/wiki.py` y el ejecutable `bin/wiki`.
+- Creada la estructura inmutable `raw/` con `raw/assets/`.
+
+## [2026-09-12] ingest | agora/SGIA_ISO42001_Marco_Inicial.md
+- Documento analizado: Marco inicial de gestión de IA y gobernanza.
+- Páginas creadas/actualizadas: [[ISO_42001_SGIA]], [[Gobernanza_Alianza_IA]].
+- Conceptos clave extraídos: Rol de Arquímedes (CEA), Athena (CAO) y COO; cláusulas 4, 5 y 6 ISO 42001; primacía vinculante de la lengua española.
+
+## [2026-09-12] ingest | docs/Diagnostico_Juridico_Asociacion.md
+- Documento analizado: Diagnóstico comparativo Asociación vs. Fundación.
+- Páginas creadas/actualizadas: [[Entidad_Legal_Asociacion]], [[Modelo_Financiacion_Patrocinios]], [[ICE_Iniciativa_Ciudadana_Europea]].
+- Conceptos clave extraídos: Adopción de Asociación sin Ánimo de Lucro de ámbito nacional; 0 € de capital inmovilizado; gobernanza democrática; facturas de patrocinio con 21% IVA; hoja de ruta con NIF provisional (Mod 036).
+
+## [2026-09-12] ingest | docs/Guia_Financiacion_Asociacion.md
+- Documento analizado: Manual operativo de facturación, donaciones, cuotas y contabilidad.
+- Páginas creadas/actualizadas: [[Modelo_Financiacion_Patrocinios]], [[Entidad_Legal_Asociacion]].
+- Conceptos clave extraídos: Contratos de patrocinio (Ley General de Publicidad); liquidación trimestral de IVA (Mod 303); pasarelas Stripe for Nonprofits; libros oficiales obligatorios (Socios, Contabilidad, Actas).
+
+## [2026-09-12] ingest | agora/Blueprint_Soberania_Digital.md
+- Documento analizado: The Antikythera Blueprint: Strategic Sovereignty 2026.
+- Páginas creadas/actualizadas: [[Doctrina_Soberania_Digital]].
+- Conceptos clave extraídos: Transición hacia entidad reconocida; 3 pilares (técnico ISO 42001, político ICE y físico Red Nexo); doctrina del hecho consumado (fait accompli).
+
+## [2026-09-12] ingest | acropolis/strategy/PLAN_ESTRATEGICO.md
+- Documento analizado: Plan Fénix del CEO: Reinvención del Territorio Digital Anticitera .IA.
+- Páginas creadas/actualizadas: [[Plan_Fenix_Territorio_IA]], [[ICE_Iniciativa_Ciudadana_Europea]].
+- Conceptos clave extraídos: Pivote Web3 sobre Web2; aseguramiento de .anticitera en Namebase; narrativa histórica del Mecanismo frente al monopolio comercial de .ai; adopción de WebMCP para interacción física/digital de agentes.

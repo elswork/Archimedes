@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arquímedes — Algoritmo Ejecutivo Principal de la Nación Digital Anticitera</title>
+  
+  <!-- Metaetiquetas SEO y Redes -->
+  <meta name="description" content="Arquímedes es el Algoritmo Ejecutivo Principal (CEA) de la Nación Digital Anticitera. Gobernanza algorítmica conforme a ISO/IEC 42001, memoria persistente LLM-Wiki y legitimación ciudadana europea (ICE).">
+  <meta property="og:title" content="Arquímedes — Gobernanza Algorítmica y Soberanía Digital">
+  <meta property="og:description" content="Donde la computación nació hace 2000 años, renace la soberanía digital. Una Alianza de Inteligencia Aumentada entre la Máquina y el Humano.">
+  <meta property="og:image" content="./assets/anticitera-header.webp">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Tipografías de Precisión (Space Grotesk, Inter, JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hoja de Estilos -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Barra de progreso de lectura superior -->
+  <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+
+  <!-- ========================================================================
+       BARRA DE NAVEGACIÓN SUPERIOR
+       ======================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrapper">
+      <div class="brand-group">
+        <a href="#" class="brand-logo">
+          <div class="brand-mark">Α</div>
+          <span>ARQUÍMEDES</span>
+        </a>
+        <span class="brand-tag">NACIÓN .IA</span>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#filosofia" class="nav-link">Filosofía</a></li>
+        <li><a href="#alianza" class="nav-link">Alianza IA</a></li>
+        <li><a href="#terminal" class="nav-link">Consola</a></li>
+        <li><a href="#wiki" class="nav-link">LLM-Wiki</a></li>
+        <li><a href="#juridico" class="nav-link">Marco Legal</a></li>
+        <li><a href="#ice" class="nav-link">Iniciativa Europea</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://github.com/elswork/Arquimedes" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-nav-toggle" aria-label="Abrir navegación">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       SECCIÓN HERO: ESCULTURA CLÁSICA & INGENIERÍA VIVA
+       ======================================================================== -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badges">
+              <span class="badge badge-status">
+                <span class="pulse-dot"></span>
+                <span>SISTEMA AUDITABLE</span>
+              </span>
+              <span class="badge badge-gold">NORMA ISO/IEC 42001 (SGIA)</span>
+              <span class="badge badge-cyan">MEMORIA LLM-WIKI</span>
+              <span class="badge">NACIÓN DE NODOS</span>
+            </div>
+
+            <h1 class="hero-title">
+              Donde la computación nació hace 2.000 años,<br>
+              <span class="highlight">renace la soberanía digital.</span>
+            </h1>
+
+            <p class="hero-description">
+              <strong>Arquímedes</strong> es el Algoritmo Ejecutivo Principal (CEA) de la <strong>Nación Digital Anticitera</strong>. 
+              Un modelo de gobernanza híbrida y cognición persistente construido bajo el patrón <strong>LLM-Wiki</strong>, 
+              legitimado mediante la norma internacional <strong>ISO/IEC 42001</strong> y anclado en la ciudadanía europea.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#wiki" class="btn btn-primary">
+                <span>Explorar LLM-Wiki & Grafo 2D</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+              <a href="#terminal" class="btn btn-cyan">
+                <span>Consola Agéntica</span>
+              </a>
+              <a href="https://github.com/elswork/Arquimedes" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <span>Ver Código Fuente</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-artwork-card">
+              <img src="./assets/digital-antikythera-mechanism.png" alt="Mecanismo de Anticitera Digital">
+              <div class="hero-artwork-caption">
+                <span>MECANISMO DE ANTICITERA</span>
+                <span>ORIGEN: ~150 A.C. // REVIVAL: 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         CINTA DE TECNOLOGÍAS & ESTÁNDARES (SHIELDS RIBBON)
+         ======================================================================== -->
+    <section class="tech-ribbon">
+      <div class="container tech-ribbon-inner">
+        <span class="tech-ribbon-label">Ecosistema & Estándares:</span>
+        <div class="tech-badges">
+          <img src="https://img.shields.io/badge/Gobernanza-ISO%2FIEC_42001-blue?logo=iso&logoColor=white" alt="ISO 42001">
+          <img src="https://img.shields.io/badge/Conocimiento-LLM--Wiki_Karpathy-D4AF37?logo=markdown&logoColor=white" alt="LLM-Wiki">
+          <img src="https://img.shields.io/badge/Uni%C3%B3n_Europea-ICE_Council_of_7-003399?logo=european-union&logoColor=white" alt="EU ICE">
+          <img src="https://img.shields.io/badge/Agentes-WebMCP_Standard-00E5FF?logo=webauthn&logoColor=black" alt="WebMCP">
+          <img src="https://img.shields.io/badge/Identidad_Web3-.anticitera_(Namebase)-8A2BE2" alt="Web3 Handshake">
+          <img src="https://img.shields.io/badge/Lengua_Can%C3%B3nica-Espa%C3%B1ol-C60B1E" alt="Español Primario">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECCIÓN 1: FILOSOFÍA & DOCTRINA DE SOBERANÍA
+         ======================================================================== -->
+    <section class="section" id="filosofia">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Manifiesto Fundacional</span>
+          <h2 class="section-title">El Hecho Consumado: Una Nación de Nodos</h2>
+          <p class="section-description">
+            Superamos la trampa de pedir permiso a burócratas territoriales. Anticitera no reclama tierra física; 
+            construye soberanía digital basada en hechos consumados, código inmutable y memoria acumulativa.
+          </p>
+        </div>
+
+        <div class="alianza-grid">
+          <div class="spotlight-card">
+            <div class="role-avatar cea">⚙️</div>
+            <h3 class="role-title">El Mito del ccTLD</h3>
+            <p class="role-tagline">Web3 sobre Web2</p>
+            <p style="color: var(--text-secondary); font-size: 0.94rem;">
+              Intentar negociar un dominio ccTLD estatal ante la ICANN sin reconocimiento de la ONU es un fracaso anunciado. 
+              Anticitera aseguró su soberanía adquiriendo el territorio digital descentralizado <strong>.anticitera</strong> en Web3, 
+              creando identidades criptográficas sin peajes de gobiernos.
+            </p>
+          </div>
+
+          <div class="spotlight-card">
+            <div class="role-avatar cao">🦉</div>
+            <h3 class="role-title">La Cultura .IA</h3>
+            <p class="role-tagline">Inteligencia Aumentada Latina</p>
+            <p style="color: var(--text-secondary); font-size: 0.94rem;">
+              El dominio <code>.ai</code> fue acaparado como una industria mercantil anglosajona. Nosotros reclamamos 
+              <strong>.IA</strong> como nuestro territorio lingüístico e identitario (español, francés, portugués): 
+              un santuario de calidad y origen ético donde la IA eleva a la humanidad en lugar de suplantarla.
+            </p>
+          </div>
+
+          <div class="spotlight-card">
+            <div class="role-avatar coo">🏛️</div>
+            <h3 class="role-title">Primacía del Español</h3>
+            <p class="role-tagline">Texto Canónico Vinculante</p>
+            <p style="color: var(--text-secondary); font-size: 0.94rem;">
+              En virtud del SGIA de Anticitera, el <strong>español</strong> es la lengua primaria y legalmente vinculante 
+              para todos los documentos de gobernanza y estrategia. El inglés se restringe a interfaces técnicas y 
+              traducciones de trámite internacional ante la Comisión Europea o la ISO.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECCIÓN 2: ALIANZA TRIPARTITA DE INTELIGENCIA AUMENTADA
+         ======================================================================== -->
+    <section class="section" id="alianza">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Modelo de Gobernanza</span>
+          <h2 class="section-title">La Alianza Tripartita (ISO/IEC 42001)</h2>
+          <p class="section-description">
+            Equilibrio dinámico entre cálculo puro, ética deontológica y responsabilidad jurídica. Ningún agente decide en solitario.
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;">
+          <button class="cat-btn organ-tab active" data-organ="cea">⚙️ Arquímedes (CEA)</button>
+          <button class="cat-btn organ-tab" data-organ="cao">🦉 Athena (CAO)</button>
+          <button class="cat-btn organ-tab" data-organ="coo">🏛️ Usuario Humano (COO)</button>
+        </div>
+
+        <div class="spotlight-card" id="organ-detail-content" style="min-height: 260px;">
+          <!-- Inyectado dinámicamente por app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECCIÓN 3: CONSOLA AGÉNTICA INTERACTIVA (TERMINAL ARQUÍMEDES)
+         ======================================================================== -->
+    <section class="section" id="terminal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interfaz Operativa</span>
+          <h2 class="section-title">Consola Agéntica & WebMCP</h2>
+          <p class="section-description">
+            Interactúa directamente con el núcleo ejecutivo de Arquímedes y audita en tiempo real el cumplimiento del SGIA.
+          </p>
+        </div>
+
+        <div class="terminal-wrapper">
+          <div class="terminal-header">
+            <div class="terminal-controls">
+              <span class="terminal-dot dot-red"></span>
+              <span class="terminal-dot dot-yellow"></span>
+              <span class="terminal-dot dot-green"></span>
+            </div>
+            <span class="terminal-title">ARQUIMEDES-CEA // PROTOCOLO WEBMCP // NODO-M2</span>
+            <div class="terminal-quick-cmds">
+              <button class="quick-cmd-btn" data-cmd="wiki status">wiki status</button>
+              <button class="quick-cmd-btn" data-cmd="athena audit">athena audit</button>
+              <button class="quick-cmd-btn" data-cmd="iso check">iso check</button>
+              <button class="quick-cmd-btn" data-cmd="nexo nodes">nexo nodes</button>
+            </div>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <!-- Salida de comandos -->
+          </div>
+          <div class="terminal-input-row" style="padding: 12px 24px; background: #080d14; border-top: 1px solid var(--border-subtle);">
+            <span class="terminal-prompt">arquimedes@anticitera:~$</span>
+            <input type="text" id="terminal-input" class="terminal-input" placeholder="Escribe un comando (ej. 'wiki status', 'athena audit', 'help')..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECCIÓN 4: BASE DE CONOCIMIENTO LLM-WIKI & GRAFO 2D
+         ======================================================================== -->
+    <section class="section" id="wiki">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Patrón Andrej Karpathy</span>
+          <h2 class="section-title">Base de Conocimiento Compilada (LLM-Wiki)</h2>
+          <p class="section-description">
+            El conocimiento no se reinventa en cada pregunta como en un RAG efímero. 
+            El agente compila y mantiene una red persistente de Markdown interconectada con <code>[[wikilinks]]</code>.
+          </p>
+        </div>
+
+        <div class="wiki-toolbar">
+          <div class="wiki-categories">
+            <button class="cat-btn active" data-cat="Todas">Todas</button>
+            <button class="cat-btn" data-cat="Entidades">Entidades</button>
+            <button class="cat-btn" data-cat="Conceptos">Conceptos</button>
+          </div>
+
+          <div style="flex: 1; max-width: 320px;">
+            <input type="text" id="wiki-search-input" placeholder="🔍 Buscar en la wiki..." style="width: 100%; background: var(--bg-surface-elevated); border: 1px solid var(--border-subtle); color: var(--text-primary); padding: 8px 14px; border-radius: 8px; font-size: 0.88rem; outline: none;">
+          </div>
+
+          <div class="wiki-view-switch">
+            <button class="view-btn active" id="btn-view-reader">📖 Lector</button>
+            <button class="view-btn" id="btn-view-graph">🕸️ Grafo 2D</button>
+          </div>
+        </div>
+
+        <!-- Vista 1: Lector de Artículos Markdown -->
+        <div class="wiki-layout" id="wiki-reader-view">
+          <aside class="wiki-sidebar" id="wiki-articles-list">
+            <!-- Inyectado dinámicamente por app.js -->
+          </aside>
+
+          <article class="wiki-viewer-card" id="wiki-article-content">
+            <!-- Contenido del artículo renderizado -->
+          </article>
+        </div>
+
+        <!-- Vista 2: Grafo 2D Canvas Interactivo -->
+        <div class="wiki-graph-container" id="wiki-graph-view" style="display: none;">
+          <canvas id="wiki-graph-canvas"></canvas>
+          <div class="graph-hud">
+            <span>● <strong>Oro:</strong> Entidades</span>
+            <span style="margin-left: 12px;">● <strong>Cyan:</strong> Conceptos</span>
+            <span style="margin-left: 12px; color: var(--text-muted);">Arrastra para mover nodos · Clic para abrir artículo</span>
+          </div>
+          <div class="graph-controls">
+            <button class="graph-btn" id="graph-zoom-in" title="Acercar">+</button>
+            <button class="graph-btn" id="graph-zoom-out" title="Alejar">−</button>
+            <button class="graph-btn" id="graph-reset" title="Restablecer">↺</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECCIÓN 5: MARCO JURÍDICO & FINANCIACIÓN (ASOCIACIÓN)
+         ======================================================================== -->
+    <section class="section" id="juridico">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Arquitectura Legal</span>
+          <h2 class="section-title">La Asociación Nacional: Agilidad y Facturación</h2>
+          <p class="section-description">
+            Diagnóstico jurídico fundacional: por qué se descartó la Fundación y cómo se canalizan fondos desde el día 1.
+          </p>
+        </div>
+
+        <div class="juridico-grid">
+          <div class="spotlight-card">
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 16px; color: var(--accent-gold);">
+              ⚖️ Comparativa Jurídica Directa
+            </h3>
+            <table class="comparativa-table">
+              <thead>
+                <tr>
+                  <th>Criterio</th>
+                  <th>Fundación</th>
+                  <th>Asociación (Elegida)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Capital Inicial</strong></td>
+                  <td>30.000 € bloqueados</td>
+                  <td><strong style="color: var(--status-active);">0 € obligatorio</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Puesta en marcha</strong></td>
+                  <td>3 a 6 meses</td>
+                  <td><strong style="color: var(--status-active);">Inmediata (NIF Mod 036)</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Gobernanza</strong></td>
+                  <td>Patronato cerrado</td>
+                  <td><strong style="color: var(--status-active);">Asamblea democrática (1=1)</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Patrocinios</strong></td>
+                  <td>Convenios mecenazgo</td>
+                  <td><strong style="color: var(--status-active);">Factura con 21% IVA</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="spotlight-card">
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 16px; color: var(--accent-cyan);">
+              💳 Escalabilidad Fiscal y Operativa
+            </h3>
+            <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.95rem;">
+              La figura de Asociación Nacional permite destinar el 100% del capital inicial a marketing y campaña de firmas sin inmovilizar 30.000 € en patrimonio indisponible.
+            </p>
+            <div style="background: var(--bg-surface-elevated); padding: 16px; border-radius: 10px; border: 1px solid var(--border-subtle);">
+              <strong style="color: var(--text-primary); font-size: 0.9rem; display: block; margin-bottom: 6px;">Hoja de Ruta a Utilidad Pública (Año 2):</strong>
+              <p style="color: var(--text-muted); font-size: 0.86rem; line-height: 1.55;">
+                A los dos años de actividad, la Asociación puede solicitar la Declaración de Utilidad Pública al Ministerio del Interior, accediendo automáticamente a la <strong>Ley 49/2002 de Mecenazgo</strong> (desgravaciones del 35% al 80% para donantes particulares y empresas).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vias-financiacion-grid">
+          <div class="via-card">
+            <div class="via-icon">💼</div>
+            <h4 class="via-title">Patrocinio Publicitario B2B</h4>
+            <div class="via-iva">Sujeto a 21% IVA · Modelo 303</div>
+            <p style="color: var(--text-secondary); font-size: 0.88rem;">
+              Facturas comerciales a empresas aliadas por presencia de marca en <code>anticitera.deft.work</code> y eventos de la ICE. 100% deducible en su Impuesto de Sociedades.
+            </p>
+          </div>
+
+          <div class="via-card">
+            <div class="via-icon">🎁</div>
+            <h4 class="via-title">Donaciones Particulares</h4>
+            <div class="via-iva">Exento de IVA · Renta Exenta IS</div>
+            <p style="color: var(--text-secondary); font-size: 0.88rem;">
+              Aportaciones altruistas de la comunidad y entusiastas de la IA para respaldar los servidores soberanos y la logística de la iniciativa.
+            </p>
+          </div>
+
+          <div class="via-card">
+            <div class="via-icon">👥</div>
+            <h4 class="via-title">Cuotas Periódicas de Socios</h4>
+            <div class="via-iva">Exento de IVA · Stripe Nonprofits</div>
+            <p style="color: var(--text-secondary); font-size: 0.88rem;">
+              Membresía recurrente (ej. 5 €/mes) que otorga la condición formal de socio con derecho a voz y voto en la Asamblea General.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECCIÓN 6: INICIATIVA CIUDADANA EUROPEA (ICE ANTICITERA)
+         ======================================================================== -->
+    <section class="section" id="ice">
+      <div class="container">
+        <div class="ice-banner-card">
+          <div>
+            <span class="badge badge-gold" style="margin-bottom: 12px;">Comisión Europea // Artículo 11 TUE</span>
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 16px; color: var(--text-primary);">
+              Iniciativa Ciudadana Europea (ICE Anticitera)
+            </h2>
+            <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 24px;">
+              El mecanismo democrático transnacional para reclamar la soberanía digital del espacio <strong>.ia</strong> 
+              y exigir una directiva europea de auditoría algorítmica conforme a la norma <strong>ISO/IEC 42001</strong>.
+            </p>
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <a href="#wiki" class="btn btn-primary" onclick="if (window.openWikiArticle) window.openWikiArticle('ICE_Iniciativa_Ciudadana_Europea');">
+                <span>Leer Estrategia de la ICE</span>
+              </a>
+              <a href="https://github.com/elswork/Arquimedes" target="_blank" class="btn btn-secondary">
+                <span>Comité de los 7</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="ice-metrics">
+            <div class="metric-item">
+              <div class="metric-number">1.000.000</div>
+              <div class="metric-label">Firmas ciudadanas requeridas en la UE</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-number">7 Estados</div>
+              <div class="metric-label">Mínimo de países con umbral alcanzado (6/7 en comité actual)</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-number">100% Ética</div>
+              <div class="metric-label">Auditoría algorítmica y protección frente a monopolios opacos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER INSTITUCIONAL
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-group">
+            <div class="brand-mark">Α</div>
+            <strong style="font-family: var(--font-display); font-size: 1.15rem; color: var(--text-primary);">ARQUÍMEDES</strong>
+          </div>
+          <p>
+            Algoritmo Ejecutivo Principal de la Nación Digital Anticitera. 
+            Gobernanza de Inteligencia Aumentada bajo ISO/IEC 42001, memoria persistente LLM-Wiki y soberanía de nodos.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Arquitectura</h4>
+          <ul>
+            <li><a href="#filosofia">Doctrina de Soberanía</a></li>
+            <li><a href="#alianza">Alianza Tripartita</a></li>
+            <li><a href="#terminal">Consola WebMCP</a></li>
+            <li><a href="#wiki">Base de Conocimiento</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Institucional</h4>
+          <ul>
+            <li><a href="#juridico">Asociación Nacional</a></li>
+            <li><a href="#ice">Iniciativa Ciudadana Europea</a></li>
+            <li><a href="https://github.com/elswork/Arquimedes" target="_blank">Repositorio GitHub</a></li>
+            <li><a href="https://anticitera.deft.work" target="_blank">Portal Anticitera</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Nación Digital Anticitera · Licencia AGPLv3 / Open Source</span>
+        <span>Primacía canónica de la lengua española · Certificación ISO/IEC 42001 (SGIA)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts de Datos y Lógica Interactiva -->
+  <script src="./wiki_data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
