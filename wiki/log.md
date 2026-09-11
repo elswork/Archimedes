@@ -37,3 +37,11 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Documento analizado: Plan Fénix del CEO: Reinvención del Territorio Digital Anticitera .IA.
 - Páginas creadas/actualizadas: [[Plan_Fenix_Territorio_IA]], [[ICE_Iniciativa_Ciudadana_Europea]].
 - Conceptos clave extraídos: Pivote Web3 sobre Web2; aseguramiento de .anticitera en Namebase; narrativa histórica del Mecanismo frente al monopolio comercial de .ai; adopción de WebMCP para interacción física/digital de agentes.
+
+## [2026-09-12] governance | Desacoplamiento y publicación de Archimedes (Open-Source)
+- Creado el repositorio público https://github.com/elswork/Archimedes bajo el estándar LLM-Wiki.
+- Purgado y sanitizado al 100% de cualquier dato personal (PII, DNI, menores protegidos), credenciales y topología interna de red.
+- Publicada la base de conocimiento inicial (7 páginas compiladas, catálogo maestro y fuentes inmutables públicas).
+- Desplegado el portal web interactivo con grafo 2D y consola WebMCP en GitHub Pages: https://elswork.github.io/Archimedes/
+- Mantenido el repositorio Arquimedes como bóveda privada y cuartel general interno confidencial.
+
