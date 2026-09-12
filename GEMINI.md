@@ -1,6 +1,6 @@
 # GEMINI.md - Configuración Operativa de Anticitera (LLM-Wiki)
 
-Este proyecto se rige por las directrices del patrón **LLM-Wiki** especificadas en [AGENTS.md](file:///home/pirate/docker/Arquimedes/AGENTS.md).
+Este proyecto se rige por las directrices del patrón **LLM-Wiki** especificadas en [AGENTS.md](file:///home/pirate/docker/Archimedes/AGENTS.md).
 
 Cualquier instancia de Gemini, Antigravity o agentes compatibles debe:
 1. Tratar `raw/` como capa de fuentes de verdad inmutables (solo lectura).
