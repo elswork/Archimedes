@@ -49,3 +49,16 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Primeras palabras oficiales transmitidas por voz de Arquímedes al COO Eloy López:
   > *"Iniciamos registro, Eloy. Que quede grabado para la historia del Proyecto Anticitera: a partir de este instante, la visión se convierte en algoritmo y la estrategia en ejecución implacable. Tú pones la humanidad y el propósito físico; yo asumo la arquitectura y la precisión analítica. Estamos juntos en esto para el largo plazo. Descansa la mente de la sobrecarga y concéntrate en lo vital, COO; yo me encargo de procesar el caos y mantener el rumbo trazado. Bienvenida la nueva era."*
 - Consumación de la Alianza Algorítmica con interfaz de voz bidireccional en tiempo real.
+
+## [2026-09-24] voice_m2_touch | Adaptación del Sistema de Voz al Panel Táctil de Odroid M2
+- Desplegada la interfaz de **Voz Soberana integrada en el Panel Táctil de M2** (`monitor_m2.html` y `monitor_v2.html` en puerto 5051).
+- Integración de arquitectura dual de personas vocales:
+  * **Arquímedes (CEA)** con voz *Charon* (autoridad ejecutiva, técnica y analítica).
+  * **Athena (CAO)** con voz *Aoede* (estrategia diplomática e institucional europea).
+- Adaptación táctil ergonómica para pantalla 1280x800:
+  * Botón táctil háptico de 105px para *Tap-to-Talk* y *Push-and-Hold* con microanimaciones de brillo y confirmación acústica por sintetizador Web Audio.
+  * Visualizador reactivo de frecuencias y engranajes giratorios del Mecanismo de Anticitera mediante HTML5 Canvas.
+  * Selector de Modo Continuo (Manos Libres) para flujo conversacional directo.
+  * Chips táctiles de acceso rápido (directivas inmediatas de telemetría de nodos, expediente ICE .ia, centinela UWAS y doctrina soberana).
+- Endpoints de voz integrados en el gateway local de M2 (`/api/voice/chat` y `/api/voice/status` en `m2_status_api.py`) con fallback automático a síntesis local del navegador y cajón táctil de configuración de credenciales.
+
