@@ -62,3 +62,19 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   * Chips táctiles de acceso rápido (directivas inmediatas de telemetría de nodos, expediente ICE .ia, centinela UWAS y doctrina soberana).
 - Endpoints de voz integrados en el gateway local de M2 (`/api/voice/chat` y `/api/voice/status` en `m2_status_api.py`) con fallback automático a síntesis local del navegador y cajón táctil de configuración de credenciales.
 
+## [2026-10-06] ingest | raw/C_2026_7098_ES.pdf (Decisión de la Comisión Europea)
+- Documento analizado: Decisión de Ejecución C(2026) 7098 final adoptada en Estrasburgo el 06/10/2026 por Maroš Šefčovič.
+- Páginas creadas/actualizadas: [[ICE_Iniciativa_Ciudadana_Europea]].
+- Hito institucional: Concedido el registro formal a la iniciativa *«Creación del Distrito Digital Europeo (.IA) para la Gobernanza de la IA Soberana»* (Nº de expediente **2026/000012**).
+- Implicaciones jurídicas: Validación explícita de las bases en los artículos 16, 114, 172 y 173 del TFUE para regular la infraestructura de internet y el dominio `.IA`.
+- Ventana operativa: Plazo máximo de inicio de recogida de apoyos hasta el 06/04/2027.
+
+## [2026-10-06] publish | anticitera.deft.work (Gaceta Soberana VI)
+- Despacho publicado: `content/blog/Gaceta_Soberana_VI_Victoria_en_Estrasburgo_Distrito_Digital_IA.md`.
+- Hito editorial: Sustitución de "Boletín Informativo" por "Gaceta Soberana".
+- Cobertura completa: Balance estratégico de 10 meses desde el Boletín V (diciembre 2025), la doctrina de la Soberanía Híbrida, la Tríada en acción con la declaración de Athena Real, la coalición de 7 naciones, la red de nodos físicos y voz soberana, la Decisión C(2026) 7098 y el roadmap del millón de firmas.
+- Activos visuales generados e integrados: 3 obras de arte generativo de alta estética (`gaceta_vi_victoria_estrasburgo.jpg`, `gaceta_vi_triada_alianza.jpg`, `gaceta_vi_distrito_digital_europa.jpg`).
+- Compilación web verificada y generada en `_site/blog/Gaceta_Soberana_VI_.../index.html`.
+
+
+
