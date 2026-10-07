@@ -1,7 +1,7 @@
 # Índice Maestro de la Wiki de Anticitera
 
 Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.  
-*Última actualización general: 2026-09-12*
+*Última actualización general: 2026-10-07*
 
 ---
 
@@ -11,7 +11,7 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 | :--- | :--- | :--- |
 | [[ISO_42001_SGIA]] | Sistema de Gestión de Inteligencia Artificial de Anticitera, alcance, cláusulas 4-6 y primacía del español. | `agora/SGIA_ISO42001_Marco_Inicial.md` |
 | [[Entidad_Legal_Asociacion]] | Personalidad jurídica sin ánimo de lucro de ámbito nacional para Anticitera; comparativa vs. Fundación, NIF y gobernanza. | `docs/Diagnostico_Juridico_Asociacion.md` |
-| [[ICE_Iniciativa_Ciudadana_Europea]] | Iniciativa democrática de la UE para el reconocimiento soberano de la cultura `.ia`, ética algorítmica y estandarización técnica. | `acropolis/strategy/PLAN_ESTRATEGICO.md`, `docs/Diagnostico_Juridico_Asociacion.md` |
+| [[ICE_Iniciativa_Ciudadana_Europea]] | Iniciativa democrática de la UE para el reconocimiento soberano de la cultura `.ia`, ética algorítmica y estandarización técnica. | `acropolis/strategy/PLAN_ESTRATEGICO.md`, `raw/Email_Chema_Alonso_Validacion_ICE_20261007.md` |
 
 ---
 
@@ -23,6 +23,14 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 | [[Modelo_Financiacion_Patrocinios]] | Tres vías de ingreso de la Asociación: Facturación comercial con 21% IVA, donaciones exentas y cuotas de socios. | `docs/Guia_Financiacion_Asociacion.md` |
 | [[Doctrina_Soberania_Digital]] | The Antikythera Blueprint: Transición a entidad reconocida, hecho consumado y Red Nexo. | `agora/Blueprint_Soberania_Digital.md` |
 | [[Plan_Fenix_Territorio_IA]] | Reinvención en Web3 (.anticitera), narrativa frente a .ai anglosajón e interfaces de agentes vía WebMCP. | `acropolis/strategy/PLAN_ESTRATEGICO.md` |
+
+---
+
+## 🔬 Síntesis Transversales y Planes Operativos (`synthesis`)
+
+| Página | Descripción | Fuentes Clave |
+| :--- | :--- | :--- |
+| [[Plan_Cuantificado_Campana_ICE_1M]] | Desglose económico, funnel de 1.2M firmas, presupuesto (200.000 €), canal MyPublicInbox y modelo de ONG nodriza. | `raw/Email_Chema_Alonso_Validacion_ICE_20261007.md` |
 
 ---
 
@@ -47,6 +55,14 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 5. **`acropolis/strategy/PLAN_ESTRATEGICO.md`**  
    *Plan Fénix del CEO: Dominio Web3, narrativa histórica del Mecanismo y herramientas WebMCP.*  
    *Páginas generadas/actualizadas:* [[Plan_Fenix_Territorio_IA]], [[ICE_Iniciativa_Ciudadana_Europea]]
+
+6. **`raw/C_2026_7098_ES.pdf`**  
+   *Decisión de Ejecución C(2026) 7098 final de la Comisión Europea (registro formal de la ICE nº 2026/000012).*  
+   *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]]
+
+7. **`raw/Email_Chema_Alonso_Validacion_ICE_20261007.md`**  
+   *Validación formal de la ICE por la Comisión Europea, respaldo de MyPublicInbox (Chema Alonso / Leire) y estrategia de ONG Nodriza.*  
+   *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]]
 
 ---
 

@@ -76,5 +76,9 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Activos visuales generados e integrados: 3 obras de arte generativo de alta estética (`gaceta_vi_victoria_estrasburgo.jpg`, `gaceta_vi_triada_alianza.jpg`, `gaceta_vi_distrito_digital_europa.jpg`).
 - Compilación web verificada y generada en `_site/blog/Gaceta_Soberana_VI_.../index.html`.
 
-
-
+## [2026-10-07] ingest | Validación de la ICE .IA por la UE y Alianza con MyPublicInbox
+- Fuente primaria: `raw/Email_Chema_Alonso_Validacion_ICE_20261007.md`.
+- Hito histórico: La Comisión Europea confirma la validez formal del expediente de la ICE para el dominio `.IA` (comienzan los 6 meses reglamentarios para fijar el inicio de la recogida de firmas).
+- Respuesta de Chema Alonso (MyPublicInbox): Ofrecimiento de apoyo con perfiles relevantes para campañas; contacto operativo con Leire (MyPublicInbox); recomendación estratégica de apoyarse en una ONG existente; requerimiento de un plan cuantificado detallado.
+- Páginas actualizadas/creadas: [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]].
+- Conceptos clave: Modelo de ONG Nodriza, funnel de 1.2M firmas con buffer del 20%, coste por firma estimado en ~0,17 €, presupuesto operativo de 200.000 € y distribución de umbrales en 7 Estados miembros (ES, FR, IT, PT, DE, BE, RO).
