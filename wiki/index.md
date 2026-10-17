@@ -64,6 +64,10 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
    *Validación formal de la ICE por la Comisión Europea, respaldo de MyPublicInbox (Chema Alonso / Leire) y estrategia de ONG Nodriza.*  
    *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]]
 
+8. **`raw/Estrategia_para_Proyecto_Anticitera_y_Desarrollo_Tecnico.md`**  
+   *Compilación de estrategia diplomática e institucional: Fijación de fecha límite (06/04/2027), candidatura de OdiseIA como ONG nodriza, ofrecimientos del CESE (ECI Day 2027) y alianzas estratégicas (Telefónica, MyPublicInbox, Gaia-X).*  
+   *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]]
+
 ---
 
 ## 🧭 Esquema y Normas de Mantenimiento

@@ -10,10 +10,11 @@ tags:
 sources:
   - "raw/C_2026_7098_ES.pdf"
   - "raw/Email_Chema_Alonso_Validacion_ICE_20261007.md"
+  - "raw/Estrategia_para_Proyecto_Anticitera_y_Desarrollo_Tecnico.md"
   - "acropolis/strategy/PLAN_ESTRATEGICO.md"
   - "docs/Diagnostico_Juridico_Asociacion.md"
   - "agora/SGIA_ISO42001_Marco_Inicial.md"
-last_updated: "2026-10-07"
+last_updated: "2026-10-17"
 ---
 
 # Iniciativa Ciudadana Europea (ICE Anticitera)
@@ -28,8 +29,10 @@ La **Iniciativa Ciudadana Europea (ICE)** es el instrumento democrático formal 
 * **Identificador Oficial de Expediente:** **Iniciativa nº 2026/000012**.
 * **Publicación Oficial:** [Portal Oficial de la Comisión Europea (ICE 2026/000012)](https://citizens-initiative.europa.eu/initiatives/details/2026/000012_es).
 * **Representantes Acreditados:** Eloy López Sánchez y Aristeidis Tsitiridis.
-* **Ventana de Preparación (Hasta 6 meses):** Período de gracia reglamentario hasta el **06/04/2027 (24:00 CET)** para fijar la fecha oficial de inicio de recogida (notificación previa con mínimo 10 días hábiles).
-* **Ventana de Recogida Oficial (12 meses):** Período reglamentario continuo para recabar al menos **1.000.000 de firmas validadas** en un mínimo de 7 Estados miembros.
+* **Calendario de Apertura Elegido (Opción A):**
+  * **Fecha de Lanzamiento Oficial:** **Martes, 06/04/2027 (09:00 CET)**, agotando al máximo los 6 meses reglamentarios para completar la precampaña tras Semana Santa 2027.
+  * **Fecha Límite de Preaviso:** Notificación formal a la Comisión Europea prevista para el **15/03/2027** (cumpliendo con creces los 10 días hábiles previos).
+  * **Período de Recogida Oficial (12 meses):** Del **06/04/2027** al **06/04/2028** para recabar al menos **1.000.000 de firmas validadas** en un mínimo de 7 Estados miembros.
 
 El despliegue operativo y financiero completo se encuentra modelizado en el [[Plan_Cuantificado_Campana_ICE_1M]].
 
@@ -42,11 +45,15 @@ El despliegue operativo y financiero completo se encuentra modelizado en el [[Pl
 
 ---
 
-## 3. Vehículo Legal y Financiero: El Modelo de la ONG Nodriza
+## 3. Vehículo Legal y Financiero: El Modelo de la ONG Nodriza y Alianzas
 Tras las consultas estratégicas con **Chema Alonso**, se adopta un giro táctico para la canalización jurídica y financiera de la campaña:
-* **Alianza con ONG Consolidada:** En lugar de demorar la operativa constituyendo una nueva asociación, la ICE se apoya en una **ONG Nodriza existente** que aporta de forma inmediata CIF operativo, cuentas bancarias, pasarelas de pago y credibilidad ciudadana ante el censo de la UE.
+* **Alianza con ONG Consolidada (OdiseIA):** En lugar de demorar la operativa constituyendo una nueva asociación (proceso burocrático de 3 a 4 meses), la iniciativa busca apoyarse en **OdiseIA** (Observatorio del Impacto Social y Ético de la IA). Su objeto social encaja al 100% con el Objetivo 3 de la ICE (eIDAS 2.0 + AI Act + GDPR) y permite canalizar patrocinios y donaciones transparentemente. Contactos directos con Richard Benjamins y Frank Escandell (`frank.escandell@odiseia.org`).
 * **Red de Abanderados (MyPublicInbox):** Integración con la plataforma y perfiles relevantes de **MyPublicInbox** bajo la coordinación operativa de Leire para multiplicar el alcance orgánico de la recogida de firmas.
-* **Financiación de la Campaña:** Patrocinios comerciales B2B y microdonaciones desgravables canalizados a través del [[Modelo_Financiacion_Patrocinios]].
+* **Respaldo Institucional del CESE (Comité Económico y Social Europeo):** Ofrecimiento formal de Erika Paulínová para difusión a través del Liaison Group, participación protagónica en el **ECI Day 2027** (primavera 2027), uso gratuito de salas en Bruselas (Rue Belliard 99) y material formativo multilingüe (*European Democracy Passport*).
+* **Alianzas Técnicas e Históricas:**
+  * **Jaime Gómez-Obregón:** Alineamiento tras demostrarse la viabilidad institucional vía ICE frente a la rigidez tradicional de la ICANN/ISO 3166-1.
+  * **José María Álvarez-Pallete:** Conexión con el artículo fundacional de ABC (marzo 2019) sobre IA en español como semilla histórica del proyecto.
+  * **Gaia-X:** Cooperación institucional explorada con Christoph Strnadl.
 
 ---
 

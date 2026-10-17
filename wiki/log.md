@@ -82,3 +82,13 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Respuesta de Chema Alonso (MyPublicInbox): Ofrecimiento de apoyo con perfiles relevantes para campañas; contacto operativo con Leire (MyPublicInbox); recomendación estratégica de apoyarse en una ONG existente; requerimiento de un plan cuantificado detallado.
 - Páginas actualizadas/creadas: [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]].
 - Conceptos clave: Modelo de ONG Nodriza, funnel de 1.2M firmas con buffer del 20%, coste por firma estimado en ~0,17 €, presupuesto operativo de 200.000 € y distribución de umbrales en 7 Estados miembros (ES, FR, IT, PT, DE, BE, RO).
+
+## [2026-10-17] ingest | raw/Estrategia_para_Proyecto_Anticitera_y_Desarrollo_Tecnico.md
+- Documento analizado: `Estrategia para Proyecto Anticitera y Desarrollo Técnico` (descargado desde Google Drive vía `gws`).
+- Páginas actualizadas: [[ICE_Iniciativa_Ciudadana_Europea]], [[index]].
+- Decisiones y acuerdos estratégicos compilados:
+  * Calendario Oficial de Lanzamiento: Fijado el **martes 6 de abril de 2027 (09:00 CET)** como fecha de apertura del OCS (Opción A), agotando los 6 meses de precampaña tras Semana Santa 2027. Notificación a la Comisión el 15/03/2027.
+  * Candidatura de ONG Nodriza: Adopción de **OdiseIA** (Observatorio del Impacto Social y Ético de la IA) como vehículo preferente tras descartar Help Miriam por incompatibilidad de objeto social. Contactos con Richard Benjamins y Frank Escandell (`frank.escandell@odiseia.org`).
+  * Respaldo Institucional CESE: Oferta formal de Erika Paulínová (Comité Económico y Social Europeo) para el ECI Day 2027, salas en Bruselas y difusión vía Liaison Group.
+  * Alianzas y Diplomacia Técnica: Alianzas con Jaime Gómez-Obregón (vía ICE y Reglamento .eu), José María Álvarez-Pallete (Telefónica, artículo de 2019) y Gaia-X (Christoph Strnadl).
+
