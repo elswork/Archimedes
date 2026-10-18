@@ -6,7 +6,7 @@ Mientras millones de euros en renovaciones anuales de dominios fluyen hacia el C
 
 Y lo más fascinante es que el código **`.IA`** tiene un hogar natural dentro de nuestras propias fronteras europeas, en las coordenadas exactas `35°52'N 23°18'E` del mar Egeo: la **Isla de Anticitera** (Grecia), el lugar donde en 1901 unos buzos de esponjas rescataron del fondo del mar el **Mecanismo de Anticitera**, el prodigio de engranajes de bronce de hace más de 2.100 años considerado el primer ordenador analógico de la historia de la humanidad.
 
-![El Mecanismo de Anticitera en el lecho del mar Egeo frente a los acantilados de la isla](./img_01_origen_egeo_anticitera.jpg)
+![El Mecanismo de Anticitera en el lecho del mar Egeo frente a los acantilados de la isla](./img_01_origen_egeo_ia.jpg)
 
 Cuando en diciembre de 2023 publiqué aquí mismo en *El Lado del Mal* aquel primer artículo titulado [*«El proyecto del Country-Code Top-Level-Domain .IA para la Isla Anticitera: Conectando pasado y futuro con un Domain Hack»*](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html), agradecí a [Chema Alonso](https://mypublicinbox.com/ChemaAlonso) que me prestase su altavoz tras escribirle por [MyPublicInbox](https://mypublicinbox.com/ChemaAlonso) para compartir lo que yo mismo bauticé entonces como **«una idea loca loquísima»**.
 
@@ -59,9 +59,7 @@ Según el artículo 8.1 del Reglamento (UE) 2019/788, desde la fecha de registro
 
 ![El cronógrafo astronómico en Anticitera rumbo al encendido oficial del 6 de abril de 2027](./img_04_cronografo_6abril_anticitera.jpg)
 
-A partir de ese minuto exacto del **6 de abril de 2027**, el reloj correrá durante **12 meses** para lograr una hazaña ciudadana histórica: **1.000.000 de firmas verificadas** (con DNI electrónico, Cl@ve o eIDAS) en toda la Unión Europea, superando además los umbrales mínimos oficiales en al menos 7 Estados miembros (en España nuestro umbral mínimo legal es de **41.595 firmas**).
-
-En cualquier campaña masiva en la red, la victoria se decide en la tracción de las primeras 48 horas. No podemos llegar al 6 de abril improvisando; necesitamos que el día que la Comisión Europea abra la urna electrónica, miles de informáticos, investigadores, estudiantes y ciudadanos entremos en tromba a firmar en el minuto uno.
+A partir de ese minuto exacto del **6 de abril de 2027**, el reloj correrá durante **12 meses** para lograr una hazaña ciudadana histórica: **1.000.000 de firmas verificadas** en toda la Unión Europea, superando además los umbrales mínimos oficiales en al menos 7 Estados miembros (en España nuestro umbral mínimo legal es de **41.595 firmas**).
 
 Por eso hemos construido y desplegado en los **24 idiomas oficiales de la Unión Europea** la consola de lanzamiento del proyecto:
 
@@ -75,10 +73,10 @@ El reloj astronómico que veréis latiendo en **[anticitera.deft.work/6abril](ht
 2. **Pásalo a tu red en cualquiera de los 24 idiomas de la UE:** Hemos integrado en la plataforma botones directos para compartir la cuenta atrás con mensaje precargado por WhatsApp, Telegram, X o LinkedIn en español, inglés, francés, griego, portugués, alemán, italiano y el resto de lenguas oficiales de la Unión.
 3. **Alianzas con universidades, empresas, divulgadores y comunidades tech:** Si representas a una universidad, colegio profesional, medio de comunicación, empresa tecnológica o comunidad de desarrolladores, marca la casilla de colaboración activa en el propio formulario de **[/6abril](https://anticitera.deft.work/6abril/)** o escríbeme directamente a través de [mi buzón en MyPublicInbox](https://mypublicinbox.com/elswork).
 
-Hace más de dos milenios, unos ingenieros griegos demostraron en Anticitera que el movimiento del cosmos podía modelarse con ruedas dentadas de bronce. Hoy tenemos a nuestro alcance que la Inteligencia Artificial hable en nuestro idioma, lleve nuestro nombre (**`.IA`**) y se rija por nuestros derechos.
+Hace más de dos milenios, unos ingenieros griegos demostraron que el movimiento del cosmos podía modelarse con ruedas dentadas de bronce. Hoy tenemos a nuestro alcance que la Inteligencia Artificial hable en nuestro idioma, lleve nuestro nombre (**`.IA`**) y se rija por nuestros derechos.
 
 El código legal ya está compilado en Estrasburgo. El **6 de abril** abrimos las urnas. ¿Te vienes a hacer historia en el Día 1?
 
 Un saludo,
 
-**Autor:** [Eloy López Sánchez](https://mypublicinbox.com/elswork), representante titular de la Iniciativa Ciudadana Europea `ECI(2026)000012` e impulsor del [Proyecto .IA Isla Anticitera](https://anticitera.deft.work/6abril/)
+**Autor:** [Eloy López Sánchez](https://mypublicinbox.com/elswork), impulsor del [Proyecto .IA Isla Anticitera](https://anticitera.deft.work/)
