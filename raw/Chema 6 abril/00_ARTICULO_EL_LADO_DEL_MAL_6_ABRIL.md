@@ -25,7 +25,7 @@ Descubrimos que existe un mecanismo constitucional de democracia directa capaz d
 1. **El Comité de las Siete Naciones:** Levantar una alianza ciudadana internacional encabezada por al menos siete ciudadanos residentes en siete Estados miembros distintos de la Unión Europea.
 2. **La prueba de competencia estricta de los Tratados:** Demostrar artículo por artículo que la Comisión Europea tiene competencia legal real para legislar sobre un dominio de nivel superior `.IA` sin salirse del Tratado de Funcionamiento de la Unión Europea (TFUE).
 
-![El hemiciclo institucional y la arquitectura jurídica de la Iniciativa Ciudadana Europea en Estrasburgo](./img_02_legal_hack_estrasburgo.jpg)
+![El hemiciclo institucional y la arquitectura jurídica de la Iniciativa Ciudadana Europea en Estrasburgo](./img_03_gobernanza_dns_soberana.jpg)
 
 Junto al co-representante griego **Aristeidis Tsitiridis** y un comité multinacional forjado entre **España, Grecia, Francia, Portugal, Hungría, Croacia y Chipre**, armamos un expediente jurídico milimétrico apoyado en los **artículos 16, 114, 172 y 173 del TFUE** y en el precedente directo del Reglamento (UE) 2019/517 (la norma comunitaria con la que la Unión Europea creó y gobierna el dominio `.eu`).
 
@@ -46,8 +46,6 @@ La propuesta admitida a trámite en la **[Decisión C(2026) 7098 final](https://
 1. **Soberanía en la raíz de Internet (ISO 3166 + ICANN):** Mandato para que la Comisión Europea ejerza sus competencias de representación exterior y negocie ante la **ISO (Agencia de Mantenimiento ISO 3166)** y la **ICANN/IANA** la reserva, protección y delegación del espacio de nombres **`.IA`** (vinculado a Anticitera) como activo estratégico de soberanía digital europea, siguiendo el camino que ya abrió el dominio `.eu`.
 2. **El «Pasaporte Único» integrado en la resolución DNS (eIDAS 2.0 + AI Act + RGPD):** Aquí reside el verdadero giro técnico. Proponemos que el registro y la propia resolución técnica de un dominio `.ia` integren por diseño tres garantías verificables para el usuario: **Identidad Digital Soberana (eIDAS 2.0)**, **auditoría algorítmica transparente (AI Act)** y **protección estricta de datos personales (RGPD)**. En lugar de enterrar la ética en PDFs legales que nadie lee, la confianza queda embebida en la propia infraestructura del nombre de dominio: si opera bajo `.ia`, cumple por arquitectura.
 3. **Distritos Digitales de Alta Confianza y *Sandboxes* Regulatorios:** Para que las startups, universidades y centros de investigación europeos no mueran asfixiados por el papeleo frente a los gigantes de EE. UU. o Asia, el marco comunitario promueve «Distritos Digitales de Alta Confianza» y entornos de prueba (*sandboxes* regulatorios) bajo los artículos 172 y 173 del TFUE, permitiendo innovar en suelo europeo con agilidad técnica y seguridad jurídica desde el primer día.
-
-![Convergencia de la relojería analógica de Anticitera con la infraestructura y la gobernanza del DNS](./img_03_gobernanza_dns_soberana.jpg)
 
 ---
 
