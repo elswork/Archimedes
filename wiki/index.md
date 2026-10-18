@@ -1,7 +1,7 @@
 # Índice Maestro de la Wiki de Anticitera
 
 Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.  
-*Última actualización general: 2026-10-07*
+*Última actualización general: 2026-10-18*
 
 ---
 

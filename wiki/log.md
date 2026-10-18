@@ -92,3 +92,20 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   * Respaldo Institucional CESE: Oferta formal de Erika Paulínová (Comité Económico y Social Europeo) para el ECI Day 2027, salas en Bruselas y difusión vía Liaison Group.
   * Alianzas y Diplomacia Técnica: Alianzas con Jaime Gómez-Obregón (vía ICE y Reglamento .eu), José María Álvarez-Pallete (Telefónica, artículo de 2019) y Gaia-X (Christoph Strnadl).
 
+## [2026-10-18] refactor & deploy | Actualización Mayor de Prometeo (RAG v3.0)
+- Diagnóstico: Prometeo fallaba al responder sobre hitos recientes (quedando atrapado en el Boletín II debido a saturación de vectores multilingües en Firestore, límite de contexto de 5 fragmentos y ausencia de indexación de la Wiki y la landing `/6abril/`).
+- Optimizaciones implementadas:
+  * Backend Cloud Function (`forge/src/prometeo/functions/main.py`):
+    - Despliegue en runtime Python 3.11 en Cloud Run / Cloud Functions v2 (`free-deft-work`, región `us-central1`).
+    - Modelo generativo actualizado a `gemini-3.8-flash` (con fallback de resiliencia).
+    - Desduplicación semántica por documento canónico y priorización de idioma español frente a versiones traducidas.
+    - Ampliación de ventana de recuperación vectorial a 25 fragmentos con selección de los 10 mejores.
+    - Anclaje epistémico fundacional en el prompt del sistema (Decisión C(2026) 7098, ECI(2026)000012, campaña del 6 de abril de 2027, 7 Estados miembros y cronología de los 5 boletines oficiales).
+  * Base de Conocimiento Vectorial (`prometeo_segments`):
+    - Ingesta de 59 nuevos vectores de alta densidad cubriendo `wiki/` (ICE, Gobernanza, Financiación, Plan Cuantificado, etc.), la landing `content/6abril.njk` y el artículo de Chema Alonso (`00_ARTICULO_EL_LADO_DEL_MAL_6_ABRIL.md`).
+  * Frontend (`anticitera.deft.work/public/js/prometeo.js`):
+    - Soporte en `pathToUrl` para plantillas `.njk` (mapeo a `/6abril/`) y enlaces de repositorio externo.
+    - Compilación estática de Eleventy verificada (888 ficheros generados).
+- Verificación funcional: Pruebas en vivo del endpoint confirmando respuestas certeras y documentadas sobre el Boletín V y la Iniciativa del 6 de abril.
+
+
