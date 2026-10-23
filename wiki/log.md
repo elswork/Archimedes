@@ -109,3 +109,15 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Verificación funcional: Pruebas en vivo del endpoint confirmando respuestas certeras y documentadas sobre el Boletín V y la Iniciativa del 6 de abril.
 
 
+## [2026-10-24] redesign & overhaul | Rediseño Monumental y Épico de la Web 6abril (ECI .IA)
+- Objetivo: Transformar la landing `/6abril/` en un portal monumental, interactivo y épico que transmite la envergadura histórica y geopolítica del Proyecto Anticitera a cualquier visitante nuevo, manteniendo el máximo rigor institucional (Decisión C(2026) 7098 final).
+- Intervenciones arquitectónicas y visuales:
+  * Lente interactiva de inspección Rayos-X (Fragmento A de museo c. 150 a.C. ↔ reconstrucción cibernética de engranajes celestes 2027) con scrubber de profundidad y seguimiento de cursor.
+  * Consola astronómica de horología y cuenta atrás con engranajes concéntricos contrarrotantes SVG, anillos de precisión Metónica/Saros y selector "Día D (Time-Warp)" para simular en tiempo real la apertura oficial de la urna OCS de Bruselas.
+  * Sección Macro-Visión ("El Proyecto en 60 Segundos"): 4 tarjetas KPI (2.100 años de computación, +600M hablantes de lenguas romances, Decisión C(2026) 7098, 1.000.000 de firmas vinculantes).
+  * Simulador de Resolución Técnica DNS (.AI vs .IA): Comparador de jurisdicción y consola de auditoría criptográfica en tiempo real (ISO 3166, eIDAS 2.0, AI Act / ISO 42001, RGPD).
+  * Odisea de Anticitera (Scrollytelling de 4 Épocas): Cronología interactiva con ilustraciones de alta resolución 16:9 de las 4 estaciones históricas y jurídicas del proyecto.
+  * Comité Organizador de las 7 Naciones y Calculadora de Cascada Viral (`1 + n + n^2 + n^3`).
+  * Inspector nativo `<dialog id="decisionModal">` del decreto oficial de Bruselas.
+  * Motor de partículas bioluminiscentes y astrolabio de fondo en `<canvas id="aegeanAstrolabeCanvas">` optimizado para CPU/batería y accesibilidad (`prefers-reduced-motion`).
+  * Despliegue sincronizado en `content/6abril.njk`, `public/js/6abril-i18n.js`, `_site/6abril/index.html` y `_site/js/6abril-i18n.js` con las 24 lenguas oficiales de la Unión Europea.
