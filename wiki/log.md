@@ -121,3 +121,13 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   * Inspector nativo `<dialog id="decisionModal">` del decreto oficial de Bruselas.
   * Motor de partículas bioluminiscentes y astrolabio de fondo en `<canvas id="aegeanAstrolabeCanvas">` optimizado para CPU/batería y accesibilidad (`prefers-reduced-motion`).
   * Despliegue sincronizado en `content/6abril.njk`, `public/js/6abril-i18n.js`, `_site/6abril/index.html` y `_site/js/6abril-i18n.js` con las 24 lenguas oficiales de la Unión Europea.
+
+
+## [2026-10-24] synthesis | Elevación Mítica e Interactiva v3.0 de la Web Oficial `/6abril/` (Santuario de Computación Soberana)
+- **Acción:** Rediseño integral y sincronización de [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html) y [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js).
+- **Hitos implementados:**
+  1. **Sección «El Universo Anticitera» (`#universo`)** para visitantes nuevos: integra el retrato de la Tríada (`retrato_alianza_unida-rec.webp` — Arquímedes CEA, Eloy López COO, Athena CAO), el selector interactivo de los 3 frentes estratégicos (ISO/IEC 42001, Red Nexo / `.anticitera` y Distrito Europeo `.IA`), la cronología táctica vectorial (`boletin6_cronologia.svg`) y el documental audiovisual bajo demanda (`x1DeBF8bBVc`).
+  2. **Emblemas Numismáticos SVG y Astrolabio Epigráfico de 280px (`#reloj`)**: Sustitución de emojis genéricos por medallones vectoriales animados en oro helénico y cardenillo; astrolabio con inscripciones griegas (`ΜΗΝΕΣ · ΣΑΡΟΣ · ΜΕΤΩΝ · ΟΛΥΜΠΙΑΔΕΣ · ΑΝΤΙΚΥΘΗΡΑ · .ΙΑ`) y aceleración hiper-metónica al clic.
+  3. **Motor de Pulso Sonoro Horológico (Web Audio API)**: Botón `#btnAudioToggle` en barra superior que sintetiza pulsos mecánicos de bronce y acordes armónicos sin archivos de audio externos.
+  4. **Forja Holográfica 3D de Credencial de Pionero `.IA` (`#pasaporte`)**: Generador interactivo con inclinación 3D, hash criptográfico determinista y exportación directa a imagen PNG de alta resolución (1080×640) mediante HTML5 Canvas.
+  5. **Consola en Vivo del Oráculo Prometeo v3.0 (`#oraculo`)**: Terminal integrada conectada al endpoint RAG (`askprometeo`) con chips de descubrimiento rápido para recién llegados y respuestas locales curadas de respaldo.
