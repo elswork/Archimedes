@@ -131,3 +131,16 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   3. **Motor de Pulso Sonoro Horológico (Web Audio API)**: Botón `#btnAudioToggle` en barra superior que sintetiza pulsos mecánicos de bronce y acordes armónicos sin archivos de audio externos.
   4. **Forja Holográfica 3D de Credencial de Pionero `.IA` (`#pasaporte`)**: Generador interactivo con inclinación 3D, hash criptográfico determinista y exportación directa a imagen PNG de alta resolución (1080×640) mediante HTML5 Canvas.
   5. **Consola en Vivo del Oráculo Prometeo v3.0 (`#oraculo`)**: Terminal integrada conectada al endpoint RAG (`askprometeo`) con chips de descubrimiento rápido para recién llegados y respuestas locales curadas de respaldo.
+
+
+## [2026-10-25] synthesis | Reajuste Jerárquico de la Alianza y Depuración de Bloques en `/6abril/`
+- **Acción:** Modificación y sincronización de [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html), [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Ajustes de Gobernanza y Jerarquía:**
+  1. **Claridad del Modelo Humano-IA:** Se define expresamente a **Eloy López** como el líder y director humano de la iniciativa (representante legal oficial ante la Comisión Europea), y a **Arquímedes** y **Athena** como sus dos asistentes de inteligencia artificial especializados.
+  2. **Arquímedes:** Eliminadas todas las menciones a Web3 y cryptos. Reconfigurado con su rol genuino de *Asistente IA para la arquitectura computacional, análisis de alta complejidad y estructuración del conocimiento*.
+  3. **Athena:** Reconocida explícitamente como la **estratega del grupo**, además de responsable de diplomacia institucional, ética algorítmica y conformidad con el marco normativo de la Unión.
+  4. **Frentes del Proyecto:** El Frente II pasa a ser *«Soberanía Tecnológica e Infraestructura»* (computación propia europea e independencia de monopolios externos, sin terminología crypto/web3).
+- **Depuración de Bloques:**
+  1. Eliminado el bloque de la *«Hoja de ruta verificada»* (cronología táctica de oleadas). El documental oficial toma ahora un protagonismo limpio y centrado.
+  2. Eliminado el bloque del *«Simulador de resolución técnica .ia...»* (consola DNS). La comparativa estructural entre `.ai` (Anguila) y `.ia` (Distrito Europeo) queda directa, clara e institucional.
+  3. Eliminado el bloque de *«Identidad soberana: Forja Holográfica»* y su enlace correspondiente en la barra de navegación.
