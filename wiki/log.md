@@ -144,3 +144,14 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   1. Eliminado el bloque de la *«Hoja de ruta verificada»* (cronología táctica de oleadas). El documental oficial toma ahora un protagonismo limpio y centrado.
   2. Eliminado el bloque del *«Simulador de resolución técnica .ia...»* (consola DNS). La comparativa estructural entre `.ai` (Anguila) y `.ia` (Distrito Europeo) queda directa, clara e institucional.
   3. Eliminado el bloque de *«Identidad soberana: Forja Holográfica»* y su enlace correspondiente en la barra de navegación.
+
+## [2026-10-25] accessibility & theme | Implementación de Modo Claro / Oscuro y Optimización de Contraste Tipográfico en `/6abril/`
+- **Acción:** Implementación del sistema dinámico de temas claro y oscuro y optimización de legibilidad en [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html), [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Mejoras de Legibilidad y Accesibilidad (WCAG AAA):**
+  1. **Modo Oscuro:** Elevado el contraste de la tipografía secundaria y atenuada (`--parchment-muted` optimizado de `#C5BFB0` a `#E2E8F0`; `--slate-muted` de `#7D8799` a `#94A3B8`), resolviendo las dificultades de lectura en párrafos narrativos, metadatos y tarjetas.
+  2. **Modo Claro (Mármol y Bronce Helénico):** Creada una paleta arquitectónica de alto contraste basada en mármol blanco cálido (`#F8F7F4`), superficies puras de tarjeta (`#FFFFFF`), tipografía en tinta obsidiana (`#0F172A` para títulos, `#1E293B` para textos de lectura) y acentos en bronce tostado (`#8C5E13` / `#52370A`) y verde esmeralda institucional (`#047857`).
+- **Controlador Interactivo de Tema:**
+  * Botón persistente `#btnThemeToggle` en la barra superior (`.topbar-actions`) con iconos reactivos (☀️ / 🌙), transiciones suaves y sonido mecánico háptico del astrolabio (`playHorologyTick`).
+  * Detección automática de preferencia del sistema operativo (`prefers-color-scheme: light/dark`) con persistencia en `localStorage` (`ice6AbrilTheme`).
+  * Script temprano anti-FOUC en `<head>` para evitar destellos durante la carga inicial.
+  * Adaptación dinámica del lienzo `<canvas id="aegeanAstrolabeCanvas">`: los anillos astronómicos, engranajes, partículas marinas y filamentos ajustan su opacidad y coloración automáticamente entre modos claro y oscuro.
