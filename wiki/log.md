@@ -155,3 +155,12 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   * Detección automática de preferencia del sistema operativo (`prefers-color-scheme: light/dark`) con persistencia en `localStorage` (`ice6AbrilTheme`).
   * Script temprano anti-FOUC en `<head>` para evitar destellos durante la carga inicial.
   * Adaptación dinámica del lienzo `<canvas id="aegeanAstrolabeCanvas">`: los anillos astronómicos, engranajes, partículas marinas y filamentos ajustan su opacidad y coloración automáticamente entre modos claro y oscuro.
+
+## [2026-10-25] fix_i18n | Corrección Integral del Sistema de Traducción Multilingüe de 6abril (24 Lenguas Oficiales UE)
+- **Acción:** Auditoría, corrección de calidad y sincronización completa de [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Problemas Corregidos y Optimizaciones:**
+  1. **Eliminación de Sobreescritura Destructiva:** Se suprimió el bloque `extraUiTranslations` que sobreescribía con textos en inglés las traducciones en alemán, griego, francés, italiano, portugués y demás lenguas comunitarias. Se implementó un bucle de polyfill universal no destructivo que preserva todas las cadenas nativas.
+  2. **Calidad de Traducción y Terminología Institucional:** Se reescribió y auditó el diccionario en portugués (`pt`) eliminando traducciones automáticas impropias ("CAIXA OFICIAL" -> "URNA OFICIAL UE ENCERRADA", "FAÇA DOAÇÃO" -> "REALIZAR DOAÇÃO", "Distrito Digital Europeu", etc.) e incorporando las 123 claves completas.
+  3. **Titular Principal Bipartito Universal (`hero_title_p1` / `hero_title_p2`):** Añadidas las dos partes del titular principal a las 24 lenguas oficiales de la UE, garantizando que el encabezado del héroe cambie de idioma correctamente sin quedar fijado en español o inglés.
+  4. **Reactividad Dinámica de Componentes:** Localización dinámica de los 3 Frentes (`updateFrontPanel`) y de los textos de accesibilidad del conmutador de modo claro/oscuro (`theme_btn_light` / `theme_btn_dark`) en cada cambio de idioma.
+  5. **Gobernanza y Jerarquía:** Mantenimiento estricto del liderazgo humano de Eloy López Sánchez y el rol de los dos asistentes IA (Arquímedes en arquitectura computacional y Athena como estratega del grupo y auditora ético-legal), sin referencias a crypto/web3.
