@@ -201,3 +201,17 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
   3. **Erradicación de Textos Fijos Residuales:** Internacionalizados los textos dinámicos del simulador de tiempo (`btn_time_warp_restore`), visor de rayos X (`xray_status_recon_full`, `xray_depth_tmpl`), secuencia del pipeline DNS (`dns_status_*`) y respuestas locales de contingencia de Prometeo.
   4. **Atributos de Accesibilidad Dinámica:** Creados los mecanismos reactivos `[data-i18n-aria]` y `[data-i18n-title]` para traducir en tiempo real los atributos `aria-label` del selector de idiomas, control deslizante de impacto, orbe flotante y modales.
   5. **Cobertura Nativa 100% en las 24 Lenguas Oficiales de la UE (5.256 cadenas):** Completadas todas las 219 claves de traducción de forma nativa en los 24 idiomas oficiales (`es`, `bg`, `cs`, `da`, `de`, `el`, `en`, `et`, `fi`, `fr`, `ga`, `hr`, `hu`, `it`, `lt`, `lv`, `mt`, `nl`, `pl`, `pt`, `ro`, `sk`, `sl`, `sv`), eliminando la dependencia del polyfill en inglés para las 17 lenguas que solo contaban con 66 claves, integrando las 4 respuestas locales del Oráculo Prometeo (`oracle_a1`..`oracle_a4`) en las 24 lenguas y ampliando el popup global [`_includes/popup_6abril.njk`](file:///home/pirate/docker/anticitera.deft.work/_includes/popup_6abril.njk) a los 24 idiomas oficiales.
+
+## [2026-10-28] synthesis | Ingesta del Boletín Oficial de la CE y Directrices del ECI Forum (Restricciones de Ads)
+- **Fuentes primarias:**
+  * Correo institucional de la Comisión Europea (`SG-ECI-COMMUNICATION@ec.europa.eu`, 26/10/2026): Boletín mensual de la ICE nº 80742 destacando en portada el registro de la iniciativa *«Creation of a European Digital Space (.IA) for Sovereign AI Governance»*.
+  * Artículo doctrinal del ECI Forum: *«How to promote a European citizens’ initiative with influencers and on social media: practical answers to organisers’ questions»* (Democracy International & Politică la Minut).
+- **Hallazgo crítico y lección estratégica:**
+  * **Bloqueo insalvable a la publicidad de pago:** Las grandes plataformas (Meta, Google, X) catalogan automáticamente cualquier campaña de ICE como publicidad política/social restringida (*issue ads*), bloqueando cuentas o rechazando anuncios incluso bajo redacción educativa. Toda iniciativa de éxito masivo en la UE (ej. *Ban Conversion Practices*, 1M firmas) ha tenido que operar al 100% por vía orgánica.
+  * **Reorientación presupuestaria:** Se modifica el [[Plan_Cuantificado_Campana_ICE_1M]] para reasignar la partida de 45.000 € (22,5%) de *"Marketing Digital y Ads de Pago"* hacia *"Producción de Activos, Creadores y Alianzas Transnacionales"*.
+  * **Pilar de LinkedIn y Collaborative Posts:** Se adopta como vector principal para el sector profesional/tecnológico la función de publicaciones colaborativas (hasta 5 perfiles coautores) entre los promotores de la Alianza, Chema Alonso, MyPublicInbox, OdiseIA y los comités nacionales.
+  * **Fórmula de la Curiosidad sin Fricción:** Sustituir peticiones de firma partidistas o activistas por ganchos pedagógicos abiertos (ej. el contraste entre el dominio caribeño `.ai` y el distrito europeo `.ia`) derivando toda la conversión técnica al portal oficial y a la urna COCS.
+  * **Protocolo de Creadores:** Implementación del *One-Page Briefing* prohibiendo delegar explicaciones burocráticas en los influencers y preservando su voz genuina.
+- **Páginas creadas/actualizadas:**
+  * Creada: [[Estrategia_Comunicacion_Organica_ICE]].
+  * Actualizadas: [[Plan_Cuantificado_Campana_ICE_1M]], [[index]].

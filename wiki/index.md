@@ -1,7 +1,7 @@
 # Índice Maestro de la Wiki de Anticitera
 
 Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.  
-*Última actualización general: 2026-10-18*
+*Última actualización general: 2026-10-28*
 
 ---
 
@@ -31,6 +31,7 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 | Página | Descripción | Fuentes Clave |
 | :--- | :--- | :--- |
 | [[Plan_Cuantificado_Campana_ICE_1M]] | Desglose económico, funnel de 1.2M firmas, presupuesto (200.000 €), canal MyPublicInbox y modelo de ONG nodriza. | `raw/Email_Chema_Alonso_Validacion_ICE_20261007.md` |
+| [[Estrategia_Comunicacion_Organica_ICE]] | Estrategia de difusión orgánica, superación del bloqueo a la publicidad de pago, LinkedIn Collaborative Posts y briefing a creadores. | `ECI Forum (octubre 2026)`, `wiki/Plan_Cuantificado_Campana_ICE_1M.md` |
 
 ---
 
@@ -67,6 +68,10 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 8. **`raw/Estrategia_para_Proyecto_Anticitera_y_Desarrollo_Tecnico.md`**  
    *Compilación de estrategia diplomática e institucional: Fijación de fecha límite (06/04/2027), candidatura de OdiseIA como ONG nodriza, ofrecimientos del CESE (ECI Day 2027) y alianzas estratégicas (Telefónica, MyPublicInbox, Gaia-X).*  
    *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]]
+
+9. **`ECI Forum (Comisión Europea, octubre 2026)`**  
+   *Directrices prácticas sobre promoción de iniciativas ciudadanas: restricciones insalvables a la publicidad política de pago, primacía de la difusión orgánica con creadores de contenido, uso de LinkedIn Collaborative Posts y estructuración de equipos de campaña.*  
+   *Páginas generadas/actualizadas:* [[Estrategia_Comunicacion_Organica_ICE]], [[Plan_Cuantificado_Campana_ICE_1M]]
 
 ---
 
