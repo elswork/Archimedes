@@ -31,6 +31,8 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 | Página | Descripción | Fuentes Clave |
 | :--- | :--- | :--- |
 | [[Plan_Cuantificado_Campana_ICE_1M]] | Desglose económico, funnel de 1.2M firmas, presupuesto (200.000 €), canal MyPublicInbox y modelo de ONG nodriza. | `raw/Email_Chema_Alonso_Validacion_ICE_20261007.md` |
+| [[Dossier_Medios_TV_Campana_ICE]] | Matriz de inteligencia de medios TV nacionales e internacionales, correos verificados, formularios y plantillas de pitch para la campaña ICE. | `wiki/ICE_Iniciativa_Ciudadana_Europea.md`, `Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md` |
+| [[Borradores_Emails_Medios_TV]] | Registro compilado de los 26 borradores de correo (.eml y texto) listos sin enviar para canales de TV nacionales e internacionales. | `wiki/Dossier_Medios_TV_Campana_ICE.md` |
 
 ---
 

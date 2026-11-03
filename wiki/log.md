@@ -82,3 +82,19 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Respuesta de Chema Alonso (MyPublicInbox): Ofrecimiento de apoyo con perfiles relevantes para campañas; contacto operativo con Leire (MyPublicInbox); recomendación estratégica de apoyarse en una ONG existente; requerimiento de un plan cuantificado detallado.
 - Páginas actualizadas/creadas: [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]].
 - Conceptos clave: Modelo de ONG Nodriza, funnel de 1.2M firmas con buffer del 20%, coste por firma estimado en ~0,17 €, presupuesto operativo de 200.000 € y distribución de umbrales en 7 Estados miembros (ES, FR, IT, PT, DE, BE, RO).
+
+## [2026-10-14] synthesis | Investigación y Dossier de Medios TV Nacionales e Internacionales
+- Misión: Localización de buzones directos, redacciones, formularios web y enlaces de filtración/pistas para la cobertura audiovisual de la ICE 2026/000012 y la Alianza Anticitera.
+- Páginas creadas: [[Dossier_Medios_TV_Campana_ICE]].
+- Canales auditados y verificados:
+  * Nacionales (España): RTVE (Telediario, Informe Semanal, En Portada), Atresmedia (Antena 3, laSexta, Salvados - Producciones del Barrio), Mediaset (Telecinco, Cuatro), Autonómicas (3Cat/TV3 30 minuts, Telemadrid, EiTB) y Agencias Nodriza (EFE, Europa Press).
+  * Internacionales y Europeos: Euronews (Bruselas/Lyon), BBC (Newsnight, Panorama, Click, News Tips), France 24 & France Télévisions (Envoyé Spécial), ARD (Tagesschau), ZDF (Frontal, heute), Deutsche Welle, ARTE, Rai 3 (Report), SRG SSR (SRF Rundschau, RTS), CNN y Bloomberg TV.
+- Entregables complementarios: 3 plantillas de pitch diferenciadas por tipología de espacio (Informativos diarios, Gran reportaje/Investigación, Especializado en Tecnología/Geopolítica) y hoja de ruta táctica.
+
+## [2026-10-14] drafts | Generación de 26 Borradores de Correo para Medios TV (Sin Enviar)
+- Generación automática de 26 correos individuales en formato `.eml` estándar (MIME multipart/alternative con cabecera `X-Unsent: 1`, maquetación HTML responsive editorial y texto plano).
+- Almacenamiento persistente en `/home/pirate/docker/Arquimedes/drafts/medios_tv_campana_ice/`.
+- Compilación del registro consolidado en la Wiki: [[Borradores_Emails_Medios_TV]].
+- Implementado script complementario de subida automática a la bandeja de Borradores de Gmail (`upload_tv_drafts_to_gmail.py`) para sincronización en la nube una vez renovado el token OAuth (`gws auth login`).
+
+
