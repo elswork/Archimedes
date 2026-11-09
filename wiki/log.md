@@ -97,4 +97,135 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - Compilación del registro consolidado en la Wiki: [[Borradores_Emails_Medios_TV]].
 - Implementado script complementario de subida automática a la bandeja de Borradores de Gmail (`upload_tv_drafts_to_gmail.py`) para sincronización en la nube una vez renovado el token OAuth (`gws auth login`).
 
+## [2026-10-17] ingest | raw/Estrategia_para_Proyecto_Anticitera_y_Desarrollo_Tecnico.md
+- Documento analizado: `Estrategia para Proyecto Anticitera y Desarrollo Técnico` (descargado desde Google Drive vía `gws`).
+- Páginas actualizadas: [[ICE_Iniciativa_Ciudadana_Europea]], [[index]].
+- Decisiones y acuerdos estratégicos compilados:
+  * Calendario Oficial de Lanzamiento: Fijado el **martes 6 de abril de 2027 (09:00 CET)** como fecha de apertura del OCS (Opción A), agotando los 6 meses de precampaña tras Semana Santa 2027. Notificación a la Comisión el 15/03/2027.
+  * Candidatura de ONG Nodriza: Adopción de **OdiseIA** (Observatorio del Impacto Social y Ético de la IA) como vehículo preferente tras descartar Help Miriam por incompatibilidad de objeto social. Contactos con Richard Benjamins y Frank Escandell (`frank.escandell@odiseia.org`).
+  * Respaldo Institucional CESE: Oferta formal de Erika Paulínová (Comité Económico y Social Europeo) para el ECI Day 2027, salas en Bruselas y difusión vía Liaison Group.
+  * Alianzas y Diplomacia Técnica: Alianzas con Jaime Gómez-Obregón (vía ICE y Reglamento .eu), José María Álvarez-Pallete (Telefónica, artículo de 2019) y Gaia-X (Christoph Strnadl).
 
+## [2026-10-18] refactor & deploy | Actualización Mayor de Prometeo (RAG v3.0)
+- Diagnóstico: Prometeo fallaba al responder sobre hitos recientes (quedando atrapado en el Boletín II debido a saturación de vectores multilingües en Firestore, límite de contexto de 5 fragmentos y ausencia de indexación de la Wiki y la landing `/6abril/`).
+- Optimizaciones implementadas:
+  * Backend Cloud Function (`forge/src/prometeo/functions/main.py`):
+    - Despliegue en runtime Python 3.11 en Cloud Run / Cloud Functions v2 (`free-deft-work`, región `us-central1`).
+    - Modelo generativo actualizado a `gemini-3.8-flash` (con fallback de resiliencia).
+    - Desduplicación semántica por documento canónico y priorización de idioma español frente a versiones traducidas.
+    - Ampliación de ventana de recuperación vectorial a 25 fragmentos con selección de los 10 mejores.
+    - Anclaje epistémico fundacional en el prompt del sistema (Decisión C(2026) 7098, ECI(2026)000012, campaña del 6 de abril de 2027, 7 Estados miembros y cronología de los 5 boletines oficiales).
+  * Base de Conocimiento Vectorial (`prometeo_segments`):
+    - Ingesta de 59 nuevos vectores de alta densidad cubriendo `wiki/` (ICE, Gobernanza, Financiación, Plan Cuantificado, etc.), la landing `content/6abril.njk` y el artículo de Chema Alonso (`00_ARTICULO_EL_LADO_DEL_MAL_6_ABRIL.md`).
+  * Frontend (`anticitera.deft.work/public/js/prometeo.js`):
+    - Soporte en `pathToUrl` para plantillas `.njk` (mapeo a `/6abril/`) y enlaces de repositorio externo.
+    - Compilación estática de Eleventy verificada (888 ficheros generados).
+- Verificación funcional: Pruebas en vivo del endpoint confirmando respuestas certeras y documentadas sobre el Boletín V y la Iniciativa del 6 de abril.
+
+
+## [2026-10-24] redesign & overhaul | Rediseño Monumental y Épico de la Web 6abril (ECI .IA)
+- Objetivo: Transformar la landing `/6abril/` en un portal monumental, interactivo y épico que transmite la envergadura histórica y geopolítica del Proyecto Anticitera a cualquier visitante nuevo, manteniendo el máximo rigor institucional (Decisión C(2026) 7098 final).
+- Intervenciones arquitectónicas y visuales:
+  * Lente interactiva de inspección Rayos-X (Fragmento A de museo c. 150 a.C. ↔ reconstrucción cibernética de engranajes celestes 2027) con scrubber de profundidad y seguimiento de cursor.
+  * Consola astronómica de horología y cuenta atrás con engranajes concéntricos contrarrotantes SVG, anillos de precisión Metónica/Saros y selector "Día D (Time-Warp)" para simular en tiempo real la apertura oficial de la urna OCS de Bruselas.
+  * Sección Macro-Visión ("El Proyecto en 60 Segundos"): 4 tarjetas KPI (2.100 años de computación, +600M hablantes de lenguas romances, Decisión C(2026) 7098, 1.000.000 de firmas vinculantes).
+  * Simulador de Resolución Técnica DNS (.AI vs .IA): Comparador de jurisdicción y consola de auditoría criptográfica en tiempo real (ISO 3166, eIDAS 2.0, AI Act / ISO 42001, RGPD).
+  * Odisea de Anticitera (Scrollytelling de 4 Épocas): Cronología interactiva con ilustraciones de alta resolución 16:9 de las 4 estaciones históricas y jurídicas del proyecto.
+  * Comité Organizador de las 7 Naciones y Calculadora de Cascada Viral (`1 + n + n^2 + n^3`).
+  * Inspector nativo `<dialog id="decisionModal">` del decreto oficial de Bruselas.
+  * Motor de partículas bioluminiscentes y astrolabio de fondo en `<canvas id="aegeanAstrolabeCanvas">` optimizado para CPU/batería y accesibilidad (`prefers-reduced-motion`).
+  * Despliegue sincronizado en `content/6abril.njk`, `public/js/6abril-i18n.js`, `_site/6abril/index.html` y `_site/js/6abril-i18n.js` con las 24 lenguas oficiales de la Unión Europea.
+
+
+## [2026-10-24] synthesis | Elevación Mítica e Interactiva v3.0 de la Web Oficial `/6abril/` (Santuario de Computación Soberana)
+- **Acción:** Rediseño integral y sincronización de [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html) y [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js).
+- **Hitos implementados:**
+  1. **Sección «El Universo Anticitera» (`#universo`)** para visitantes nuevos: integra el retrato de la Tríada (`retrato_alianza_unida-rec.webp` — Arquímedes CEA, Eloy López COO, Athena CAO), el selector interactivo de los 3 frentes estratégicos (ISO/IEC 42001, Red Nexo / `.anticitera` y Distrito Europeo `.IA`), la cronología táctica vectorial (`boletin6_cronologia.svg`) y el documental audiovisual bajo demanda (`x1DeBF8bBVc`).
+  2. **Emblemas Numismáticos SVG y Astrolabio Epigráfico de 280px (`#reloj`)**: Sustitución de emojis genéricos por medallones vectoriales animados en oro helénico y cardenillo; astrolabio con inscripciones griegas (`ΜΗΝΕΣ · ΣΑΡΟΣ · ΜΕΤΩΝ · ΟΛΥΜΠΙΑΔΕΣ · ΑΝΤΙΚΥΘΗΡΑ · .ΙΑ`) y aceleración hiper-metónica al clic.
+  3. **Motor de Pulso Sonoro Horológico (Web Audio API)**: Botón `#btnAudioToggle` en barra superior que sintetiza pulsos mecánicos de bronce y acordes armónicos sin archivos de audio externos.
+  4. **Forja Holográfica 3D de Credencial de Pionero `.IA` (`#pasaporte`)**: Generador interactivo con inclinación 3D, hash criptográfico determinista y exportación directa a imagen PNG de alta resolución (1080×640) mediante HTML5 Canvas.
+  5. **Consola en Vivo del Oráculo Prometeo v3.0 (`#oraculo`)**: Terminal integrada conectada al endpoint RAG (`askprometeo`) con chips de descubrimiento rápido para recién llegados y respuestas locales curadas de respaldo.
+
+
+## [2026-10-25] synthesis | Reajuste Jerárquico de la Alianza y Depuración de Bloques en `/6abril/`
+- **Acción:** Modificación y sincronización de [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html), [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Ajustes de Gobernanza y Jerarquía:**
+  1. **Claridad del Modelo Humano-IA:** Se define expresamente a **Eloy López** como el líder y director humano de la iniciativa (representante legal oficial ante la Comisión Europea), y a **Arquímedes** y **Athena** como sus dos asistentes de inteligencia artificial especializados.
+  2. **Arquímedes:** Eliminadas todas las menciones a Web3 y cryptos. Reconfigurado con su rol genuino de *Asistente IA para la arquitectura computacional, análisis de alta complejidad y estructuración del conocimiento*.
+  3. **Athena:** Reconocida explícitamente como la **estratega del grupo**, además de responsable de diplomacia institucional, ética algorítmica y conformidad con el marco normativo de la Unión.
+  4. **Frentes del Proyecto:** El Frente II pasa a ser *«Soberanía Tecnológica e Infraestructura»* (computación propia europea e independencia de monopolios externos, sin terminología crypto/web3).
+- **Depuración de Bloques:**
+  1. Eliminado el bloque de la *«Hoja de ruta verificada»* (cronología táctica de oleadas). El documental oficial toma ahora un protagonismo limpio y centrado.
+  2. Eliminado el bloque del *«Simulador de resolución técnica .ia...»* (consola DNS). La comparativa estructural entre `.ai` (Anguila) y `.ia` (Distrito Europeo) queda directa, clara e institucional.
+  3. Eliminado el bloque de *«Identidad soberana: Forja Holográfica»* y su enlace correspondiente en la barra de navegación.
+
+## [2026-10-25] accessibility & theme | Implementación de Modo Claro / Oscuro y Optimización de Contraste Tipográfico en `/6abril/`
+- **Acción:** Implementación del sistema dinámico de temas claro y oscuro y optimización de legibilidad en [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html), [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Mejoras de Legibilidad y Accesibilidad (WCAG AAA):**
+  1. **Modo Oscuro:** Elevado el contraste de la tipografía secundaria y atenuada (`--parchment-muted` optimizado de `#C5BFB0` a `#E2E8F0`; `--slate-muted` de `#7D8799` a `#94A3B8`), resolviendo las dificultades de lectura en párrafos narrativos, metadatos y tarjetas.
+  2. **Modo Claro (Mármol y Bronce Helénico):** Creada una paleta arquitectónica de alto contraste basada en mármol blanco cálido (`#F8F7F4`), superficies puras de tarjeta (`#FFFFFF`), tipografía en tinta obsidiana (`#0F172A` para títulos, `#1E293B` para textos de lectura) y acentos en bronce tostado (`#8C5E13` / `#52370A`) y verde esmeralda institucional (`#047857`).
+- **Controlador Interactivo de Tema:**
+  * Botón persistente `#btnThemeToggle` en la barra superior (`.topbar-actions`) con iconos reactivos (☀️ / 🌙), transiciones suaves y sonido mecánico háptico del astrolabio (`playHorologyTick`).
+  * Detección automática de preferencia del sistema operativo (`prefers-color-scheme: light/dark`) con persistencia en `localStorage` (`ice6AbrilTheme`).
+  * Script temprano anti-FOUC en `<head>` para evitar destellos durante la carga inicial.
+  * Adaptación dinámica del lienzo `<canvas id="aegeanAstrolabeCanvas">`: los anillos astronómicos, engranajes, partículas marinas y filamentos ajustan su opacidad y coloración automáticamente entre modos claro y oscuro.
+
+## [2026-10-25] fix_i18n | Corrección Integral del Sistema de Traducción Multilingüe de 6abril (24 Lenguas Oficiales UE)
+- **Acción:** Auditoría, corrección de calidad y sincronización completa de [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Problemas Corregidos y Optimizaciones:**
+  1. **Eliminación de Sobreescritura Destructiva:** Se suprimió el bloque `extraUiTranslations` que sobreescribía con textos en inglés las traducciones en alemán, griego, francés, italiano, portugués y demás lenguas comunitarias. Se implementó un bucle de polyfill universal no destructivo que preserva todas las cadenas nativas.
+  2. **Calidad de Traducción y Terminología Institucional:** Se reescribió y auditó el diccionario en portugués (`pt`) eliminando traducciones automáticas impropias ("CAIXA OFICIAL" -> "URNA OFICIAL UE ENCERRADA", "FAÇA DOAÇÃO" -> "REALIZAR DOAÇÃO", "Distrito Digital Europeu", etc.) e incorporando las 123 claves completas.
+  3. **Titular Principal Bipartito Universal (`hero_title_p1` / `hero_title_p2`):** Añadidas las dos partes del titular principal a las 24 lenguas oficiales de la UE, garantizando que el encabezado del héroe cambie de idioma correctamente sin quedar fijado en español o inglés.
+  4. **Reactividad Dinámica de Componentes:** Localización dinámica de los 3 Frentes (`updateFrontPanel`) y de los textos de accesibilidad del conmutador de modo claro/oscuro (`theme_btn_light` / `theme_btn_dark`) en cada cambio de idioma.
+  5. **Gobernanza y Jerarquía:** Mantenimiento estricto del liderazgo humano de Eloy López Sánchez y el rol de los dos asistentes IA (Arquímedes en arquitectura computacional y Athena como estratega del grupo y auditora ético-legal), sin referencias a crypto/web3.
+
+## [2026-10-25] ui & contrast | Simplificación a «Prometeo» y Corrección de Contraste en Estado de Nodo RAG
+- **Acción:** Actualización estética, de accesibilidad y sincronización de [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html), [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Mejoras Implementadas:**
+  1. **Simplificación Nominal:** Cambio de «Oráculo Prometeo» / «Oráculo IA» a **«Prometeo»** de forma consistente en el botón flotante inferior, en la barra de navegación superior, en el botón de consulta y en los diccionarios multilingües (`floating_oracle_label`, `nav_oracle`, `oracle_btn_send`).
+  2. **Resolución Crítica de Legibilidad (WCAG AAA):** El texto de estado *«● CONECTADO A LA WIKI COMPILADA Y AL DECRETO C(2026) 7098»* utilizaba erróneamente `color: var(--verdigris-glow)`, una variable de resplandor con un 20–22% de opacidad (`rgba`), lo que volvía el texto casi invisible. Se sustituyó por la clase `.oracle-status-line` con tipografía sólida, nítida (0.8rem, semibold) y alto contraste esmeralda (#34D399 en modo oscuro y #065F46 en modo claro con ratio superior a 8.5:1), complementado con pastilla protectora.
+  3. **Optimización de Telemetría del Astrolabio:** Se corrigió igualmente el color en `.gear-telemetry-badge`, garantizando que la indicación de calibración metónica se lea con total claridad en ambos temas.
+
+## [2026-10-25] i18n_sync | Auditoría Forense y Sincronización Total de Componentes Dinámicos en /6abril/
+- **Acción:** Auditoría exhaustiva y erradicación de fragmentos estáticos sin traducir en [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk), [index.html](file:///home/pirate/docker/anticitera.deft.work/_site/6abril/index.html), [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js) y [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js).
+- **Elementos Localizados y Dotados de `data-i18n`:**
+  1. **Metadatos y Roles de la Tríada:** Incorporados atributos de traducción a las etiquetas meta del decreto (`seal_meta_tag1..3`) y a las funciones de liderazgo humano e IA (`triad_role_arq`, `triad_role_eloy`, `triad_role_ath`).
+  2. **Comparativa Estructural .AI vs .IA:** Traducidas al 100% las tarjetas comparativas entre Anguila y el Distrito Europeo (`comp_bad_*`, `comp_good_*`).
+  3. **Visor de la Odisea de Anticitera (4 Épocas):** Traducidos los encabezados, cuerpos descriptivos y etiquetas de las 4 épocas históricas (`odyssey_tab*`, `odyssey_e1..4_*`).
+  4. **Modal del Decreto Oficial (`#decisionModal`):** Traducidas las 4 bases jurídicas del Tratado (Art. 16, 114, 172 y 173 TFUE y precedente Reglamento .eu).
+  5. **Reactividad Dinámica en Tiempo Real:** Las funciones JavaScript `renderOdysseyEpoch()`, `updateCascadeCalculator()`, la telemetría del astrolabio, el estado del lente de rayos X y el mensaje de espera de Prometeo ahora responden instantáneamente al conmutador de idiomas sin recargar la página.
+  6. **Sincronización Total:** Los diccionarios (`es`, `de`, `el`, `en`, `fr`, `it`, `pt`) y el motor de fallback para las 24 lenguas oficiales de la UE quedan completamente sincronizados y verificados.
+
+## [2026-10-25] feature | Popup de Recomendación de la Landing /6abril/ en la Portada Principal
+- **Acción:** Creación e integración del componente modal no intrusivo de recomendación de la campaña del 6 de abril en [_includes/popup_6abril.njk](file:///home/pirate/docker/anticitera.deft.work/_includes/popup_6abril.njk), [_includes/layouts/home.njk](file:///home/pirate/docker/anticitera.deft.work/_includes/layouts/home.njk) y los archivos de portada de producción [_site/index.html](file:///home/pirate/docker/anticitera.deft.work/_site/index.html) y [_site/en/index.html](file:///home/pirate/docker/anticitera.deft.work/_site/en/index.html).
+- **Detalles de Implementación y Experiencia de Usuario:**
+  1. **Activación Inteligente:** Se dispara exclusivamente en la portada (`/` y raíces lingüísticas), tras un retardo suave de 1,4 segundos desde la carga inicial para no interrumpir la navegación.
+  2. **Persistencia y Control de Frecuencia:** Almacena la preferencia de descarte en `localStorage` (`anticitera_6abril_popup_dismissed_until`). Si el usuario pulsa cerrar (`✕`), el fondo o «Recordar más tarde», se oculta durante 24 horas. Si pulsa el botón principal de explorar la campaña, se oculta durante 72 horas.
+  3. **Estética Clásica Anticitera:** Diseño basado en cristal de zafiro oscuro y bronce (`#C89D3C`), cabecera fotográfica del cronógrafo astronómico al atardecer egeo (`/img/chema-6abril/img_04_cronografo_6abril_anticitera.jpg`), pastillas de metadatos (Decisión C(2026) 7098, 1M de firmas, Distrito .IA) y compatibilidad total con Modo Claro y Modo Oscuro.
+  4. **Internacionalización Dinámica:** Adapta automáticamente los textos a la lengua del usuario (español, inglés, francés, italiano, portugués, alemán y griego) con fallback al español.
+  5. **Accesibilidad:** Soporta cierre mediante tecla `Escape`, navegación por teclado y roles ARIA (`role="dialog"`, `aria-modal="true"`).
+
+## [2026-10-25] i18n_fix | Corrección Integral de la Calculadora Viral y Auditoría de Traducciones (24 Lenguas de la UE)
+- **Acción:** Resolución de la excepción crítica de orden de inicialización (TDZ en ES6) que impedía la traducción del texto «Si te unes hoy...» en la calculadora viral, dotación de traducciones nativas completas para las 24 lenguas oficiales de la UE y blindaje de accesibilidad internacional en [6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/public/js/6abril-i18n.js), [_site/js/6abril-i18n.js](file:///home/pirate/docker/anticitera.deft.work/_site/js/6abril-i18n.js), [6abril.njk](file:///home/pirate/docker/anticitera.deft.work/content/6abril.njk) y [_includes/popup_6abril.njk](file:///home/pirate/docker/anticitera.deft.work/_includes/popup_6abril.njk).
+- **Causa Raíz Identificada:**
+  1. **Temporal Dead Zone (TDZ):** `applyLanguage(currentLang)` se ejecutaba de forma prematura antes de la declaración léxica de `odysseyBadge` y `cascadeSlider`. Esto arrojaba un `ReferenceError` no capturado que abortaba la ejecución de JavaScript en la carga inicial y cambio de idioma, dejando el bloque `#cascadeOutput` congelado en el HTML estático en español.
+- **Correcciones Implementadas:**
+  1. **Arquitectura y Ciclo de Vida Robusto:** Traslado del arranque inicial (`applyLanguage(currentLang)`, `updateCountdown()`) al final del listener `DOMContentLoaded` tras el registro completo de todos los componentes.
+  2. **Traducciones Nativas en las 24 Lenguas Oficiales:** Incorporadas plantillas sintácticas nativas para `calc_output_tmpl` y `calc_people_val` en las 24 lenguas de la Unión Europea (ES, EN, DE, FR, IT, PT, EL, NL, PL, RO, SV, DA, FI, CS, SK, HU, BG, HR, SL, ET, LV, LT, GA, MT).
+  3. **Erradicación de Textos Fijos Residuales:** Internacionalizados los textos dinámicos del simulador de tiempo (`btn_time_warp_restore`), visor de rayos X (`xray_status_recon_full`, `xray_depth_tmpl`), secuencia del pipeline DNS (`dns_status_*`) y respuestas locales de contingencia de Prometeo.
+  4. **Atributos de Accesibilidad Dinámica:** Creados los mecanismos reactivos `[data-i18n-aria]` y `[data-i18n-title]` para traducir en tiempo real los atributos `aria-label` del selector de idiomas, control deslizante de impacto, orbe flotante y modales.
+  5. **Cobertura Nativa 100% en las 24 Lenguas Oficiales de la UE (5.256 cadenas):** Completadas todas las 219 claves de traducción de forma nativa en los 24 idiomas oficiales (`es`, `bg`, `cs`, `da`, `de`, `el`, `en`, `et`, `fi`, `fr`, `ga`, `hr`, `hu`, `it`, `lt`, `lv`, `mt`, `nl`, `pl`, `pt`, `ro`, `sk`, `sl`, `sv`), eliminando la dependencia del polyfill en inglés para las 17 lenguas que solo contaban con 66 claves, integrando las 4 respuestas locales del Oráculo Prometeo (`oracle_a1`..`oracle_a4`) en las 24 lenguas y ampliando el popup global [`_includes/popup_6abril.njk`](file:///home/pirate/docker/anticitera.deft.work/_includes/popup_6abril.njk) a los 24 idiomas oficiales.
+
+## [2026-10-28] synthesis | Ingesta del Boletín Oficial de la CE y Directrices del ECI Forum (Restricciones de Ads)
+- **Fuentes primarias:**
+  * Correo institucional de la Comisión Europea (`SG-ECI-COMMUNICATION@ec.europa.eu`, 26/10/2026): Boletín mensual de la ICE nº 80742 destacando en portada el registro de la iniciativa *«Creation of a European Digital Space (.IA) for Sovereign AI Governance»*.
+  * Artículo doctrinal del ECI Forum: *«How to promote a European citizens’ initiative with influencers and on social media: practical answers to organisers’ questions»* (Democracy International & Politică la Minut).
+- **Hallazgo crítico y lección estratégica:**
+  * **Bloqueo insalvable a la publicidad de pago:** Las grandes plataformas (Meta, Google, X) catalogan automáticamente cualquier campaña de ICE como publicidad política/social restringida (*issue ads*), bloqueando cuentas o rechazando anuncios incluso bajo redacción educativa. Toda iniciativa de éxito masivo en la UE (ej. *Ban Conversion Practices*, 1M firmas) ha tenido que operar al 100% por vía orgánica.
+  * **Reorientación presupuestaria:** Se modifica el [[Plan_Cuantificado_Campana_ICE_1M]] para reasignar la partida de 45.000 € (22,5%) de *"Marketing Digital y Ads de Pago"* hacia *"Producción de Activos, Creadores y Alianzas Transnacionales"*.
+  * **Pilar de LinkedIn y Collaborative Posts:** Se adopta como vector principal para el sector profesional/tecnológico la función de publicaciones colaborativas (hasta 5 perfiles coautores) entre los promotores de la Alianza, Chema Alonso, MyPublicInbox, OdiseIA y los comités nacionales.
+  * **Fórmula de la Curiosidad sin Fricción:** Sustituir peticiones de firma partidistas o activistas por ganchos pedagógicos abiertos (ej. el contraste entre el dominio caribeño `.ai` y el distrito europeo `.ia`) derivando toda la conversión técnica al portal oficial y a la urna COCS.
+  * **Protocolo de Creadores:** Implementación del *One-Page Briefing* prohibiendo delegar explicaciones burocráticas en los influencers y preservando su voz genuina.
+- **Páginas creadas/actualizadas:**
+  * Creada: [[Estrategia_Comunicacion_Organica_ICE]].
+  * Actualizadas: [[Plan_Cuantificado_Campana_ICE_1M]], [[index]].

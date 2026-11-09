@@ -1,7 +1,7 @@
 # Índice Maestro de la Wiki de Anticitera
 
 Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.  
-*Última actualización general: 2026-10-07*
+*Última actualización general: 2026-10-28*
 
 ---
 
@@ -31,6 +31,7 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 | Página | Descripción | Fuentes Clave |
 | :--- | :--- | :--- |
 | [[Plan_Cuantificado_Campana_ICE_1M]] | Desglose económico, funnel de 1.2M firmas, presupuesto (200.000 €), canal MyPublicInbox y modelo de ONG nodriza. | `raw/Email_Chema_Alonso_Validacion_ICE_20261007.md` |
+| [[Estrategia_Comunicacion_Organica_ICE]] | Estrategia de difusión orgánica, superación del bloqueo a la publicidad de pago, LinkedIn Collaborative Posts y briefing a creadores. | `ECI Forum (octubre 2026)`, `wiki/Plan_Cuantificado_Campana_ICE_1M.md` |
 | [[Dossier_Medios_TV_Campana_ICE]] | Matriz de inteligencia de medios TV nacionales e internacionales, correos verificados, formularios y plantillas de pitch para la campaña ICE. | `wiki/ICE_Iniciativa_Ciudadana_Europea.md`, `Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md` |
 | [[Borradores_Emails_Medios_TV]] | Registro compilado de los 26 borradores de correo (.eml y texto) listos sin enviar para canales de TV nacionales e internacionales. | `wiki/Dossier_Medios_TV_Campana_ICE.md` |
 
@@ -65,6 +66,14 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 7. **`raw/Email_Chema_Alonso_Validacion_ICE_20261007.md`**  
    *Validación formal de la ICE por la Comisión Europea, respaldo de MyPublicInbox (Chema Alonso / Leire) y estrategia de ONG Nodriza.*  
    *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]]
+
+8. **`raw/Estrategia_para_Proyecto_Anticitera_y_Desarrollo_Tecnico.md`**  
+   *Compilación de estrategia diplomática e institucional: Fijación de fecha límite (06/04/2027), candidatura de OdiseIA como ONG nodriza, ofrecimientos del CESE (ECI Day 2027) y alianzas estratégicas (Telefónica, MyPublicInbox, Gaia-X).*  
+   *Páginas generadas/actualizadas:* [[ICE_Iniciativa_Ciudadana_Europea]], [[Plan_Cuantificado_Campana_ICE_1M]]
+
+9. **`ECI Forum (Comisión Europea, octubre 2026)`**  
+   *Directrices prácticas sobre promoción de iniciativas ciudadanas: restricciones insalvables a la publicidad política de pago, primacía de la difusión orgánica con creadores de contenido, uso de LinkedIn Collaborative Posts y estructuración de equipos de campaña.*  
+   *Páginas generadas/actualizadas:* [[Estrategia_Comunicacion_Organica_ICE]], [[Plan_Cuantificado_Campana_ICE_1M]]
 
 ---
 

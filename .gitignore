@@ -20,6 +20,7 @@ Thumbs.db
 scratch/
 logs/
 *.log
+drafts/
 
 # Caches y Dependencias
 __pycache__/

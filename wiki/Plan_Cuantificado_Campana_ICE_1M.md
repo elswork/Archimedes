@@ -12,7 +12,8 @@ sources:
   - "raw/Email_Chema_Alonso_Validacion_ICE_20261007.md"
   - "raw/Dossier_Estrategico_Gobernanza_GAC_CENTR_PuntCAT.md"
   - "raw/Guia_Financiacion_Asociacion.md"
-last_updated: "2026-10-07"
+  - "wiki/Estrategia_Comunicacion_Organica_ICE.md"
+last_updated: "2026-10-28"
 ---
 
 # Plan Cuantificado de Campaña y Financiación: 1M Firmas ICE .IA
@@ -62,7 +63,7 @@ gantt
     section Recogida (12M)
     Fase 1: El Big Bang (Chema + Medios)        :2027-03, 2027-05
     Fase 2: Universidades y Tejido Asociativo   :2027-05, 2027-09
-    Fase 3: Campaña Europea & Ads de Soporte    :2027-09, 2028-01
+    Fase 3: Campaña Europea & Creadores         :2027-09, 2028-01
     Fase 4: Sprint Final de Urgencia            :2028-01, 2028-03
 ```
 
@@ -92,7 +93,7 @@ graph TD
     COCS -->|Conversión Final 62,5%| FIRMA["Firmas Validadas Completadas (600.000 orgánicas/MyPublicInbox)"]
     
     PERF["Campañas de Creadores MyPublicInbox + Prensa"] --> VIS
-    ADS["Ads de Refuerzo Retargeting (Países UE)"] --> VIS
+    ADS["Colaboraciones Orgánicas & LinkedIn Collaborative Posts"] --> VIS
 ```
 
 ### Métricas de Rendimiento:
@@ -111,7 +112,7 @@ Estructura presupuestaria austera y eficiente para los 18 meses de operación:
 | Partida | Concepto / Detalle | Coste Estimado | Porcentaje |
 | :--- | :--- | :--- | :--- |
 | **1. Red MyPublicInbox y Creadores** | Compensación / incentivos de campaña para creadores de contenido, microcampañas gestionadas con Leire, soporte de difusión. | **75.000 €** | 37,5% |
-| **2. Marketing Digital y Ads de Apoyo** | Publicidad programática segmentada y retargeting en LinkedIn/Meta/X en Francia, Italia, Alemania y Portugal para asegurar los umbrales mínimos. | **45.000 €** | 22,5% |
+| **2. Producción de Activos, Creadores y Alianzas** *(Reasignada)* | Reorientada tras la prohibición práctica de anuncios de pago en redes (ver directriz ECI Forum oct-2026 en [[Estrategia_Comunicacion_Organica_ICE]]): kits traducibles para 7 países, alianzas con creadores técnicos locales y posts colaborativos en LinkedIn. | **45.000 €** | 22,5% |
 | **3. Gabinete de Comunicación y Prensa** | Ruedas de prensa, notas para medios nacionales e internacionales, vídeo de campaña profesional, kit de prensa. | **30.000 €** | 15,0% |
 | **4. Plataforma Web Satélite y UX** | Landing multilingüe (ES, FR, IT, PT, EN, DE), CDN, analítica sin cookies privacy-friendly, integración visual con validador de la UE. | **15.000 €** | 7,5% |
 | **5. Secretaría Técnica y Auditoría ONG** | Coordinación jurídica de la ICE, gestoría contable, auditoría externa obligatoria por el Reglamento ICE de la UE. | **20.000 €** | 10,0% |
@@ -158,6 +159,7 @@ graph LR
 
 ## Enlaces Relacionados
 * Marco de la iniciativa europea: [[ICE_Iniciativa_Ciudadana_Europea]]
+* Estrategia de difusión y restricciones de publicidad: [[Estrategia_Comunicacion_Organica_ICE]]
 * Marco de gobernanza: [[Gobernanza_Alianza_IA]]
 * Doctrina de soberanía institucional: [[Doctrina_Soberania_Digital]]
 * Hoja de ruta estratégica territorial: [[Plan_Fenix_Territorio_IA]]
