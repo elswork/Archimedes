@@ -229,3 +229,15 @@ Registro append-only de todas las operaciones de ingesta, consulta consolidada y
 - **Páginas creadas/actualizadas:**
   * Creada: [[Estrategia_Comunicacion_Organica_ICE]].
   * Actualizadas: [[Plan_Cuantificado_Campana_ICE_1M]], [[index]].
+
+
+## [2026-11-09] ingest & synthesis | Negociación con Richard Benjamins (OdiseIA) y Pack MyPublicInbox (2.500 €)
+- **Hito diplomático:** Respuesta oficial de **Richard Benjamins** (Cofundador y Vicepresidente de OdiseIA, 08/11/2026) solicitando en `richard.benjamins@odiseia.org` una propuesta formal detallada con los beneficios y compromisos de OdiseIA para impulsar la `ECI(2026)000012`.
+- **Deliberación de la Tríada (Eloy, Arquímedes y Athena):**
+  * **Nivel 1 (Alianza Base a 0 €):** Desactivación total de la barrera financiera garantizando **0 € de compromiso económico obligatorio (riesgo financiero cero)** para OdiseIA. Posicionamiento de OdiseIA como órgano consultivo ético de los Objetivos 1 y 3 (Distrito Digital `.IA`), presencia en el ECI Day 2027 (CESE Bruselas) y sinergia cultural con la obra *«La Odisea de la .IA»* (`odisea.deft.work`).
+  * **Nivel 2 (Puente de Oro — Pack MyPublicInbox de 2.500 €):** Presentación transparente del paquete especial cerrado con Leire (MyPublicInbox) por **2.500 €** que activa a **Chema Alonso** como Embajador, entrevistas en *Todo Llega*, *Escapando palante* (El Hombre de Negro) y *Cosas de Hackers*, mesa redonda de IA en Getafe y campaña de 20 Tempos por suscriptor europeo.
+  * **3 Opciones sin fricción para la Junta de OdiseIA:** Opción A (Alianza a 0 €), Opción B (Patrocinio/Co-patrocinio directo de los 2.500 € en MyPublicInbox protagonizando los medios junto a Chema Alonso) y Opción C (Derivación del patrocinio de 2.500 € a una empresa socia/patrona de OdiseIA).
+- **Entregables generados:**
+  * Página compilada en la Wiki: [[Alianza_OdiseIA_y_Plan_MyPublicInbox]].
+  * Borrador `.eml` listo para enviar: `drafts/propuesta_richard_benjamins_odiseia.eml`.
+  * Actualizadas: [[ICE_Iniciativa_Ciudadana_Europea]], [[index]].

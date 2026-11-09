@@ -1,7 +1,7 @@
 # Índice Maestro de la Wiki de Anticitera
 
 Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.  
-*Última actualización general: 2026-10-28*
+*Última actualización general: 2026-11-09*
 
 ---
 
@@ -34,6 +34,7 @@ Catálogo vivo y estructurado de la base de conocimiento continua de Anticitera.
 | [[Estrategia_Comunicacion_Organica_ICE]] | Estrategia de difusión orgánica, superación del bloqueo a la publicidad de pago, LinkedIn Collaborative Posts y briefing a creadores. | `ECI Forum (octubre 2026)`, `wiki/Plan_Cuantificado_Campana_ICE_1M.md` |
 | [[Dossier_Medios_TV_Campana_ICE]] | Matriz de inteligencia de medios TV nacionales e internacionales, correos verificados, formularios y plantillas de pitch para la campaña ICE. | `wiki/ICE_Iniciativa_Ciudadana_Europea.md`, `Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md` |
 | [[Borradores_Emails_Medios_TV]] | Registro compilado de los 26 borradores de correo (.eml y texto) listos sin enviar para canales de TV nacionales e internacionales. | `wiki/Dossier_Medios_TV_Campana_ICE.md` |
+| [[Alianza_OdiseIA_y_Plan_MyPublicInbox]] | Propuesta ejecutiva en dos niveles para Richard Benjamins (OdiseIA): alianza institucional a coste 0 € y activación táctica opcional de 2.500 € en MyPublicInbox con Chema Alonso. | `wiki/ICE_Iniciativa_Ciudadana_Europea.md`, `wiki/Plan_Cuantificado_Campana_ICE_1M.md` |
 
 ---
 
